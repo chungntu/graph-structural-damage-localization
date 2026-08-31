@@ -1,0 +1,1227 @@
+{
+  "status": "exploratory_first_order_frequency_shift_region_gate",
+  "model": "delta lambda proportional to -w_e |b_e^T phi_m|^2",
+  "expected_relation_by_state": {
+    "DS1": "deck_longitudinal",
+    "DS2": "deck_longitudinal",
+    "DS3": "deck_transverse",
+    "DS4": "deck_transverse",
+    "DS5": "lateral_bracing",
+    "DS6": "lateral_bracing",
+    "DS7": "lateral_bracing",
+    "DS8": "deck_truss_interface"
+  },
+  "damage_type_groups": {
+    "DT1_stringer_floor_beam": [
+      "DS1",
+      "DS2"
+    ],
+    "DT2_stringer_cross_beam": [
+      "DS3",
+      "DS4"
+    ],
+    "DT3_lateral_bracing": [
+      "DS5",
+      "DS6",
+      "DS7"
+    ],
+    "DT4_floor_beam_main_member": [
+      "DS8"
+    ]
+  },
+  "candidate_relations": [
+    "deck_longitudinal",
+    "deck_transverse",
+    "deck_truss_interface",
+    "lateral_bracing",
+    "truss_chord",
+    "truss_diagonal"
+  ],
+  "healthy_lambda_scale": [
+    4.897427124651534,
+    20.271663774236234,
+    39.04061532535939
+  ],
+  "primary": {
+    "state_top1_accuracy": 0.125,
+    "state_mean_reciprocal_rank": 0.44791666666666663,
+    "type_top1_accuracy": 0.25,
+    "type_mean_reciprocal_rank": 0.5,
+    "states": {
+      "DS1": {
+        "expected_relation": "deck_longitudinal",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 2,
+        "block_top1_fraction": 0.0,
+        "block_median_rank": 2.0,
+        "aggregate_relation_scores": {
+          "deck_transverse": 0.6490275181804169,
+          "deck_longitudinal": 0.6328008696540981,
+          "lateral_bracing": 0.5248030116673277,
+          "truss_diagonal": 0.5168864297469775,
+          "truss_chord": 0.5034569386864676,
+          "deck_truss_interface": 0.43992256407891317
+        }
+      },
+      "DS2": {
+        "expected_relation": "deck_longitudinal",
+        "predicted_relation": "truss_chord",
+        "aggregate_rank": 2,
+        "block_top1_fraction": 0.0,
+        "block_median_rank": 2.0,
+        "aggregate_relation_scores": {
+          "truss_chord": 0.07443201555109347,
+          "deck_longitudinal": 0.05085461279605338,
+          "deck_transverse": 0.04330178494609069,
+          "truss_diagonal": 0.028400545011523802,
+          "lateral_bracing": 0.026380213183248694,
+          "deck_truss_interface": 0.01323882942404251
+        }
+      },
+      "DS3": {
+        "expected_relation": "deck_transverse",
+        "predicted_relation": "deck_truss_interface",
+        "aggregate_rank": 2,
+        "block_top1_fraction": 0.2857142857142857,
+        "block_median_rank": 2.0,
+        "aggregate_relation_scores": {
+          "deck_truss_interface": 0.27248940127063315,
+          "deck_transverse": 0.25666031633131114,
+          "deck_longitudinal": 0.22923165407283086,
+          "truss_diagonal": 0.19193461893711275,
+          "lateral_bracing": 0.17898406796960772,
+          "truss_chord": 0.11602776518614893
+        }
+      },
+      "DS4": {
+        "expected_relation": "deck_transverse",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 1,
+        "block_top1_fraction": 0.35714285714285715,
+        "block_median_rank": 2.0,
+        "aggregate_relation_scores": {
+          "deck_transverse": 0.0002975399526205271,
+          "deck_longitudinal": 0.00021463153122331578,
+          "truss_chord": 7.061231959644537e-05,
+          "truss_diagonal": 6.226359745840256e-06,
+          "lateral_bracing": 0.0,
+          "deck_truss_interface": 0.0
+        }
+      },
+      "DS5": {
+        "expected_relation": "lateral_bracing",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 4,
+        "block_top1_fraction": 0.0,
+        "block_median_rank": 4.0,
+        "aggregate_relation_scores": {
+          "deck_transverse": 0.6541435315514021,
+          "deck_longitudinal": 0.6390299701108451,
+          "truss_chord": 0.5098253925576246,
+          "lateral_bracing": 0.506782722013569,
+          "truss_diagonal": 0.4997142728329398,
+          "deck_truss_interface": 0.4308684547762075
+        }
+      },
+      "DS6": {
+        "expected_relation": "lateral_bracing",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 3,
+        "block_top1_fraction": 0.0,
+        "block_median_rank": 3.0,
+        "aggregate_relation_scores": {
+          "deck_transverse": 0.5897285173934774,
+          "deck_longitudinal": 0.5737880087361931,
+          "lateral_bracing": 0.5042073795209416,
+          "truss_diagonal": 0.4966516962981561,
+          "truss_chord": 0.45492916920638327,
+          "deck_truss_interface": 0.41586462159808013
+        }
+      },
+      "DS7": {
+        "expected_relation": "lateral_bracing",
+        "predicted_relation": "truss_diagonal",
+        "aggregate_rank": 3,
+        "block_top1_fraction": 0.0,
+        "block_median_rank": 2.5,
+        "aggregate_relation_scores": {
+          "truss_diagonal": 0.5426241677666278,
+          "deck_transverse": 0.5348284980357245,
+          "lateral_bracing": 0.5327863072076435,
+          "deck_longitudinal": 0.5199050322357661,
+          "truss_chord": 0.45483786951935656,
+          "deck_truss_interface": 0.4040993007888666
+        }
+      },
+      "DS8": {
+        "expected_relation": "deck_truss_interface",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 6,
+        "block_top1_fraction": 0.0,
+        "block_median_rank": 6.0,
+        "aggregate_relation_scores": {
+          "deck_transverse": 0.9225722973366621,
+          "truss_chord": 0.7850711082086019,
+          "deck_longitudinal": 0.7730928761608281,
+          "truss_diagonal": 0.7435725183084372,
+          "lateral_bracing": 0.7121232801956989,
+          "deck_truss_interface": 0.6451435428799577
+        }
+      }
+    },
+    "damage_types": {
+      "DT1_stringer_floor_beam": {
+        "states": [
+          "DS1",
+          "DS2"
+        ],
+        "expected_relation": "deck_longitudinal",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 2
+      },
+      "DT2_stringer_cross_beam": {
+        "states": [
+          "DS3",
+          "DS4"
+        ],
+        "expected_relation": "deck_transverse",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 1
+      },
+      "DT3_lateral_bracing": {
+        "states": [
+          "DS5",
+          "DS6",
+          "DS7"
+        ],
+        "expected_relation": "lateral_bracing",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 3
+      },
+      "DT4_floor_beam_main_member": {
+        "states": [
+          "DS8"
+        ],
+        "expected_relation": "deck_truss_interface",
+        "predicted_relation": "deck_transverse",
+        "aggregate_rank": 6
+      }
+    }
+  },
+  "aggregator_sensitivity": {
+    "primary_top20_mean": {
+      "state_top1_accuracy": 0.125,
+      "state_mean_reciprocal_rank": 0.44791666666666663,
+      "type_top1_accuracy": 0.25,
+      "type_mean_reciprocal_rank": 0.5,
+      "states": {
+        "DS1": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.6490275181804169,
+            "deck_longitudinal": 0.6328008696540981,
+            "lateral_bracing": 0.5248030116673277,
+            "truss_diagonal": 0.5168864297469775,
+            "truss_chord": 0.5034569386864676,
+            "deck_truss_interface": 0.43992256407891317
+          }
+        },
+        "DS2": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "truss_chord",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "truss_chord": 0.07443201555109347,
+            "deck_longitudinal": 0.05085461279605338,
+            "deck_transverse": 0.04330178494609069,
+            "truss_diagonal": 0.028400545011523802,
+            "lateral_bracing": 0.026380213183248694,
+            "deck_truss_interface": 0.01323882942404251
+          }
+        },
+        "DS3": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_truss_interface",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.2857142857142857,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_truss_interface": 0.27248940127063315,
+            "deck_transverse": 0.25666031633131114,
+            "deck_longitudinal": 0.22923165407283086,
+            "truss_diagonal": 0.19193461893711275,
+            "lateral_bracing": 0.17898406796960772,
+            "truss_chord": 0.11602776518614893
+          }
+        },
+        "DS4": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.35714285714285715,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.0002975399526205271,
+            "deck_longitudinal": 0.00021463153122331578,
+            "truss_chord": 7.061231959644537e-05,
+            "truss_diagonal": 6.226359745840256e-06,
+            "lateral_bracing": 0.0,
+            "deck_truss_interface": 0.0
+          }
+        },
+        "DS5": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 4,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.6541435315514021,
+            "deck_longitudinal": 0.6390299701108451,
+            "truss_chord": 0.5098253925576246,
+            "lateral_bracing": 0.506782722013569,
+            "truss_diagonal": 0.4997142728329398,
+            "deck_truss_interface": 0.4308684547762075
+          }
+        },
+        "DS6": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 3.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.5897285173934774,
+            "deck_longitudinal": 0.5737880087361931,
+            "lateral_bracing": 0.5042073795209416,
+            "truss_diagonal": 0.4966516962981561,
+            "truss_chord": 0.45492916920638327,
+            "deck_truss_interface": 0.41586462159808013
+          }
+        },
+        "DS7": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "truss_diagonal",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 2.5,
+          "aggregate_relation_scores": {
+            "truss_diagonal": 0.5426241677666278,
+            "deck_transverse": 0.5348284980357245,
+            "lateral_bracing": 0.5327863072076435,
+            "deck_longitudinal": 0.5199050322357661,
+            "truss_chord": 0.45483786951935656,
+            "deck_truss_interface": 0.4040993007888666
+          }
+        },
+        "DS8": {
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 6,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 6.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.9225722973366621,
+            "truss_chord": 0.7850711082086019,
+            "deck_longitudinal": 0.7730928761608281,
+            "truss_diagonal": 0.7435725183084372,
+            "lateral_bracing": 0.7121232801956989,
+            "deck_truss_interface": 0.6451435428799577
+          }
+        }
+      },
+      "damage_types": {
+        "DT1_stringer_floor_beam": {
+          "states": [
+            "DS1",
+            "DS2"
+          ],
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 2
+        },
+        "DT2_stringer_cross_beam": {
+          "states": [
+            "DS3",
+            "DS4"
+          ],
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1
+        },
+        "DT3_lateral_bracing": {
+          "states": [
+            "DS5",
+            "DS6",
+            "DS7"
+          ],
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 3
+        },
+        "DT4_floor_beam_main_member": {
+          "states": [
+            "DS8"
+          ],
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 6
+        }
+      }
+    },
+    "top10_mean": {
+      "state_top1_accuracy": 0.375,
+      "state_mean_reciprocal_rank": 0.5708333333333333,
+      "type_top1_accuracy": 0.25,
+      "type_mean_reciprocal_rank": 0.5083333333333333,
+      "states": {
+        "DS1": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.9285714285714286,
+          "block_median_rank": 1.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.7383352686123061,
+            "deck_transverse": 0.7070477082650201,
+            "lateral_bracing": 0.5768369705999484,
+            "truss_chord": 0.5478503172296033,
+            "truss_diagonal": 0.5306419332605365,
+            "deck_truss_interface": 0.5013856214679127
+          }
+        },
+        "DS2": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.9285714285714286,
+          "block_median_rank": 1.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.10170922559210677,
+            "truss_chord": 0.10146619389876219,
+            "deck_transverse": 0.08250857671562224,
+            "truss_diagonal": 0.04484546943779437,
+            "lateral_bracing": 0.026854674923108786,
+            "deck_truss_interface": 0.02647765884808502
+          }
+        },
+        "DS3": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_truss_interface",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.07142857142857142,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_truss_interface": 0.30966679372771616,
+            "deck_transverse": 0.28509050478898107,
+            "deck_longitudinal": 0.27171514565630417,
+            "truss_diagonal": 0.2591005157875416,
+            "lateral_bracing": 0.21716286890120476,
+            "truss_chord": 0.13051226258911813
+          }
+        },
+        "DS4": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.35714285714285715,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.0005663955735481302,
+            "deck_longitudinal": 0.00037500019957779223,
+            "truss_chord": 0.00010591847939466804,
+            "truss_diagonal": 1.2452719491680512e-05,
+            "lateral_bracing": 0.0,
+            "deck_truss_interface": 0.0
+          }
+        },
+        "DS5": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 5,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 5.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.691276252106652,
+            "deck_longitudinal": 0.6896145918762491,
+            "truss_chord": 0.5908817740921728,
+            "truss_diagonal": 0.5372777260406589,
+            "lateral_bracing": 0.5261716165837587,
+            "deck_truss_interface": 0.5041113343361078
+          }
+        },
+        "DS6": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 3.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.7109030947617752,
+            "deck_transverse": 0.6740339848609809,
+            "lateral_bracing": 0.5591544313227417,
+            "truss_diagonal": 0.5155747877175074,
+            "truss_chord": 0.4649329713363025,
+            "deck_truss_interface": 0.44746639378958986
+          }
+        },
+        "DS7": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 3.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.6616601545567578,
+            "deck_transverse": 0.6152333638837146,
+            "lateral_bracing": 0.5922497069385971,
+            "truss_diagonal": 0.5627613689299156,
+            "truss_chord": 0.4915045971508803,
+            "deck_truss_interface": 0.42968410843484267
+          }
+        },
+        "DS8": {
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "truss_chord",
+          "aggregate_rank": 5,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 5.0,
+          "aggregate_relation_scores": {
+            "truss_chord": 0.9332839072952418,
+            "deck_transverse": 0.9319745579169905,
+            "deck_longitudinal": 0.9305027156570314,
+            "lateral_bracing": 0.8578669063840578,
+            "deck_truss_interface": 0.8369331802143435,
+            "truss_diagonal": 0.8251789569154253
+          }
+        }
+      },
+      "damage_types": {
+        "DT1_stringer_floor_beam": {
+          "states": [
+            "DS1",
+            "DS2"
+          ],
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 1
+        },
+        "DT2_stringer_cross_beam": {
+          "states": [
+            "DS3",
+            "DS4"
+          ],
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 2
+        },
+        "DT3_lateral_bracing": {
+          "states": [
+            "DS5",
+            "DS6",
+            "DS7"
+          ],
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 3
+        },
+        "DT4_floor_beam_main_member": {
+          "states": [
+            "DS8"
+          ],
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "truss_chord",
+          "aggregate_rank": 5
+        }
+      }
+    },
+    "top30_mean": {
+      "state_top1_accuracy": 0.125,
+      "state_mean_reciprocal_rank": 0.4270833333333333,
+      "type_top1_accuracy": 0.25,
+      "type_mean_reciprocal_rank": 0.4791666666666667,
+      "states": {
+        "DS1": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.6144821918822537,
+            "deck_longitudinal": 0.546545608042264,
+            "truss_diagonal": 0.5084244323722246,
+            "lateral_bracing": 0.4869447871329102,
+            "truss_chord": 0.41921598190417436,
+            "deck_truss_interface": 0.3962266850071977
+          }
+        },
+        "DS2": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "truss_chord",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "truss_chord": 0.04629813461468543,
+            "deck_longitudinal": 0.03698517294258428,
+            "deck_transverse": 0.028867856630727128,
+            "truss_diagonal": 0.022842673213039684,
+            "lateral_bracing": 0.01779443663223905,
+            "deck_truss_interface": 0.008825886282695006
+          }
+        },
+        "DS3": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_truss_interface",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.5,
+          "block_median_rank": 1.5,
+          "aggregate_relation_scores": {
+            "deck_truss_interface": 0.2244927220497483,
+            "deck_transverse": 0.21921370584356187,
+            "deck_longitudinal": 0.18340335596533963,
+            "truss_diagonal": 0.16342096863442548,
+            "lateral_bracing": 0.14463134643054693,
+            "truss_chord": 0.09334862212941317
+          }
+        },
+        "DS4": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.5,
+          "block_median_rank": 1.5,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.00019835996841368472,
+            "deck_longitudinal": 0.0001561546064063109,
+            "truss_chord": 4.236739175786722e-05,
+            "truss_diagonal": 4.981087796672205e-06,
+            "lateral_bracing": 0.0,
+            "deck_truss_interface": 0.0
+          }
+        },
+        "DS5": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 4,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.6325420503106619,
+            "deck_longitudinal": 0.5493970897543228,
+            "truss_diagonal": 0.48161692226830793,
+            "lateral_bracing": 0.4499468053675096,
+            "truss_chord": 0.40777140549472296,
+            "deck_truss_interface": 0.3764753199693217
+          }
+        },
+        "DS6": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 4,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.5443816206051812,
+            "deck_longitudinal": 0.5015555199341892,
+            "truss_diagonal": 0.48919529182835586,
+            "lateral_bracing": 0.46618203218713394,
+            "truss_chord": 0.40590769037679564,
+            "deck_truss_interface": 0.37450205085444566
+          }
+        },
+        "DS7": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "truss_diagonal",
+          "aggregate_rank": 4,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "truss_diagonal": 0.5082869593271835,
+            "deck_transverse": 0.4867944298479992,
+            "deck_longitudinal": 0.45966196631787204,
+            "lateral_bracing": 0.45240976333564337,
+            "truss_chord": 0.4075930848550385,
+            "deck_truss_interface": 0.37468342143220157
+          }
+        },
+        "DS8": {
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 6,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 6.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.897647815645939,
+            "deck_longitudinal": 0.7032651938219616,
+            "truss_chord": 0.6328567599632102,
+            "truss_diagonal": 0.6257489194378514,
+            "lateral_bracing": 0.5460028228836729,
+            "deck_truss_interface": 0.5394331941418393
+          }
+        }
+      },
+      "damage_types": {
+        "DT1_stringer_floor_beam": {
+          "states": [
+            "DS1",
+            "DS2"
+          ],
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 2
+        },
+        "DT2_stringer_cross_beam": {
+          "states": [
+            "DS3",
+            "DS4"
+          ],
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1
+        },
+        "DT3_lateral_bracing": {
+          "states": [
+            "DS5",
+            "DS6",
+            "DS7"
+          ],
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 4
+        },
+        "DT4_floor_beam_main_member": {
+          "states": [
+            "DS8"
+          ],
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 6
+        }
+      }
+    },
+    "top3_mean": {
+      "state_top1_accuracy": 0.375,
+      "state_mean_reciprocal_rank": 0.5187499999999999,
+      "type_top1_accuracy": 0.25,
+      "type_mean_reciprocal_rank": 0.4875,
+      "states": {
+        "DS1": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.9285714285714286,
+          "block_median_rank": 1.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.7412444098007317,
+            "deck_transverse": 0.7070477082650201,
+            "truss_diagonal": 0.5237809934132092,
+            "truss_chord": 0.5034569386864676,
+            "lateral_bracing": 0.4869447871329102,
+            "deck_truss_interface": 0.4676624646241996
+          }
+        },
+        "DS2": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 1.0,
+          "block_median_rank": 1.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.11149125788837061,
+            "deck_transverse": 0.08250857671562224,
+            "truss_chord": 0.07443201555109347,
+            "truss_diagonal": 0.03467025576253946,
+            "lateral_bracing": 0.01779443663223905,
+            "deck_truss_interface": 0.017651772565390012
+          }
+        },
+        "DS3": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_truss_interface",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.14285714285714285,
+          "block_median_rank": 3.0,
+          "aggregate_relation_scores": {
+            "deck_truss_interface": 0.29823728953863105,
+            "deck_longitudinal": 0.2868457752664958,
+            "deck_transverse": 0.28509050478898107,
+            "truss_diagonal": 0.22693721447664536,
+            "lateral_bracing": 0.14463134643054693,
+            "truss_chord": 0.11602776518614893
+          }
+        },
+        "DS4": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.6428571428571429,
+          "block_median_rank": 1.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.0005663955735481302,
+            "deck_longitudinal": 0.0004421397383113282,
+            "truss_chord": 7.061231959644537e-05,
+            "truss_diagonal": 8.301812994453675e-06,
+            "lateral_bracing": 0.0,
+            "deck_truss_interface": 0.0
+          }
+        },
+        "DS5": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 6,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 6.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.6947458383223258,
+            "deck_transverse": 0.691276252106652,
+            "truss_diagonal": 0.5250964206697433,
+            "truss_chord": 0.5098253925576246,
+            "deck_truss_interface": 0.4750217699745308,
+            "lateral_bracing": 0.4499468053675096
+          }
+        },
+        "DS6": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 4,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.7131797951040928,
+            "deck_transverse": 0.6740339848609809,
+            "truss_diagonal": 0.5046936342350454,
+            "lateral_bracing": 0.46618203218713394,
+            "truss_chord": 0.45492916920638327,
+            "deck_truss_interface": 0.43587382855812734
+          }
+        },
+        "DS7": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 5,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.6633993131574856,
+            "deck_transverse": 0.6152333638837146,
+            "truss_diagonal": 0.5497617360409744,
+            "truss_chord": 0.45483786951935656,
+            "lateral_bracing": 0.45240976333564337,
+            "deck_truss_interface": 0.4133950615788503
+          }
+        },
+        "DS8": {
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 5,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 5.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.9319745579169905,
+            "deck_longitudinal": 0.9312196818268301,
+            "truss_chord": 0.7850711082086019,
+            "truss_diagonal": 0.7842913173197741,
+            "deck_truss_interface": 0.7097199056938026,
+            "lateral_bracing": 0.5460028228836729
+          }
+        }
+      },
+      "damage_types": {
+        "DT1_stringer_floor_beam": {
+          "states": [
+            "DS1",
+            "DS2"
+          ],
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 1
+        },
+        "DT2_stringer_cross_beam": {
+          "states": [
+            "DS3",
+            "DS4"
+          ],
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 2
+        },
+        "DT3_lateral_bracing": {
+          "states": [
+            "DS5",
+            "DS6",
+            "DS7"
+          ],
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 4
+        },
+        "DT4_floor_beam_main_member": {
+          "states": [
+            "DS8"
+          ],
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 5
+        }
+      }
+    },
+    "maximum": {
+      "state_top1_accuracy": 0.25,
+      "state_mean_reciprocal_rank": 0.5104166666666666,
+      "type_top1_accuracy": 0.25,
+      "type_mean_reciprocal_rank": 0.5208333333333333,
+      "states": {
+        "DS1": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.7857142857142857,
+          "block_median_rank": 1.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.7530755573094765,
+            "deck_transverse": 0.7335743109618665,
+            "lateral_bracing": 0.5768369705999484,
+            "truss_chord": 0.548084489184302,
+            "truss_diagonal": 0.5476146377105977,
+            "deck_truss_interface": 0.5282525631963493
+          }
+        },
+        "DS2": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.12149678750367199,
+            "deck_longitudinal": 0.11506136876399062,
+            "truss_chord": 0.106637955980262,
+            "truss_diagonal": 0.057255199765995135,
+            "deck_truss_interface": 0.04076444381728594,
+            "lateral_bracing": 0.026854674923108786
+          }
+        },
+        "DS3": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_truss_interface",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.2857142857142857,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_truss_interface": 0.32884393883359453,
+            "deck_transverse": 0.3192074064616765,
+            "deck_longitudinal": 0.30123356390106243,
+            "truss_diagonal": 0.27062566808409794,
+            "lateral_bracing": 0.21716286890120476,
+            "truss_chord": 0.14310727893118133
+          }
+        },
+        "DS4": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.42857142857142855,
+          "block_median_rank": 2.5,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.0006924142826982909,
+            "deck_longitudinal": 0.0006654623632351761,
+            "truss_chord": 0.00012289935543000486,
+            "truss_diagonal": 2.4905438983361024e-05,
+            "lateral_bracing": 0.0,
+            "deck_truss_interface": 0.0
+          }
+        },
+        "DS5": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 6,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 6.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.7355066345754934,
+            "deck_longitudinal": 0.7142806177509542,
+            "truss_chord": 0.5910778076858063,
+            "deck_truss_interface": 0.5672435043179541,
+            "truss_diagonal": 0.5650286649987997,
+            "lateral_bracing": 0.5261716165837587
+          }
+        },
+        "DS6": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_longitudinal",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 3.0,
+          "aggregate_relation_scores": {
+            "deck_longitudinal": 0.7209901557645354,
+            "deck_transverse": 0.7115000089013319,
+            "lateral_bracing": 0.5591544313227417,
+            "truss_diagonal": 0.5229799431573119,
+            "truss_chord": 0.4831024453956295,
+            "deck_truss_interface": 0.4622028831657133
+          }
+        },
+        "DS7": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 3.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.6767792182517418,
+            "deck_longitudinal": 0.6658779775239783,
+            "lateral_bracing": 0.5922497069385971,
+            "truss_diagonal": 0.5826807401753984,
+            "truss_chord": 0.5370677217768073,
+            "deck_truss_interface": 0.4482021775160467
+          }
+        },
+        "DS8": {
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "truss_chord",
+          "aggregate_rank": 4,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "truss_chord": 0.9335306574230048,
+            "deck_longitudinal": 0.9329803590210408,
+            "deck_transverse": 0.9328310310522101,
+            "deck_truss_interface": 0.8832463215920558,
+            "truss_diagonal": 0.8726442701020657,
+            "lateral_bracing": 0.8578669063840578
+          }
+        }
+      },
+      "damage_types": {
+        "DT1_stringer_floor_beam": {
+          "states": [
+            "DS1",
+            "DS2"
+          ],
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 2
+        },
+        "DT2_stringer_cross_beam": {
+          "states": [
+            "DS3",
+            "DS4"
+          ],
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1
+        },
+        "DT3_lateral_bracing": {
+          "states": [
+            "DS5",
+            "DS6",
+            "DS7"
+          ],
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 3
+        },
+        "DT4_floor_beam_main_member": {
+          "states": [
+            "DS8"
+          ],
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "truss_chord",
+          "aggregate_rank": 4
+        }
+      }
+    },
+    "all_edge_mean": {
+      "state_top1_accuracy": 0.125,
+      "state_mean_reciprocal_rank": 0.41666666666666663,
+      "type_top1_accuracy": 0.25,
+      "type_mean_reciprocal_rank": 0.4583333333333333,
+      "states": {
+        "DS1": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 4,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.34499141954127577,
+            "truss_diagonal": 0.2506532852614901,
+            "lateral_bracing": 0.2423903729318858,
+            "deck_longitudinal": 0.23317851742744045,
+            "truss_chord": 0.22148674827852874,
+            "deck_truss_interface": 0.2035936472061181
+          }
+        },
+        "DS2": {
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "truss_chord",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "truss_chord": 0.01653504807667337,
+            "deck_longitudinal": 0.01130102506578964,
+            "deck_transverse": 0.008660356989218137,
+            "truss_diagonal": 0.007138335379074901,
+            "lateral_bracing": 0.006672913737089644,
+            "deck_truss_interface": 0.0029419620942316687
+          }
+        },
+        "DS3": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_truss_interface",
+          "aggregate_rank": 2,
+          "block_top1_fraction": 0.2857142857142857,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_truss_interface": 0.08778188582209728,
+            "deck_transverse": 0.08518166844470398,
+            "deck_longitudinal": 0.06790003869874946,
+            "lateral_bracing": 0.0625740283873884,
+            "truss_diagonal": 0.054192577651842946,
+            "truss_chord": 0.04001195711430745
+          }
+        },
+        "DS4": {
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1,
+          "block_top1_fraction": 0.35714285714285715,
+          "block_median_rank": 2.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 5.950799052410542e-05,
+            "deck_longitudinal": 4.771390751303944e-05,
+            "truss_chord": 1.5131211342095433e-05,
+            "truss_diagonal": 1.556589936460064e-06,
+            "lateral_bracing": 0.0,
+            "deck_truss_interface": 0.0
+          }
+        },
+        "DS5": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 4,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 4.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.347771007076557,
+            "truss_diagonal": 0.22388145462332135,
+            "deck_longitudinal": 0.2232861575224599,
+            "lateral_bracing": 0.2165179174717236,
+            "truss_chord": 0.20213353487310157,
+            "deck_truss_interface": 0.18107389061977908
+          }
+        },
+        "DS6": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 3.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.3091840642772655,
+            "truss_diagonal": 0.23732251250041345,
+            "lateral_bracing": 0.22927893797041915,
+            "deck_longitudinal": 0.2151789763114451,
+            "truss_chord": 0.20864517641163122,
+            "deck_truss_interface": 0.18934826992691425
+          }
+        },
+        "DS7": {
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 3,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 3.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.26736354815280783,
+            "truss_diagonal": 0.230924710532454,
+            "lateral_bracing": 0.2221130413168428,
+            "truss_chord": 0.1971036943613902,
+            "deck_longitudinal": 0.1893828969031125,
+            "deck_truss_interface": 0.17371914275033623
+          }
+        },
+        "DS8": {
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 6,
+          "block_top1_fraction": 0.0,
+          "block_median_rank": 6.0,
+          "aggregate_relation_scores": {
+            "deck_transverse": 0.46220578682148394,
+            "deck_longitudinal": 0.271353397311313,
+            "truss_chord": 0.246969271054075,
+            "truss_diagonal": 0.21851216089297265,
+            "lateral_bracing": 0.21610106242648702,
+            "deck_truss_interface": 0.20235258378868254
+          }
+        }
+      },
+      "damage_types": {
+        "DT1_stringer_floor_beam": {
+          "states": [
+            "DS1",
+            "DS2"
+          ],
+          "expected_relation": "deck_longitudinal",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 3
+        },
+        "DT2_stringer_cross_beam": {
+          "states": [
+            "DS3",
+            "DS4"
+          ],
+          "expected_relation": "deck_transverse",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 1
+        },
+        "DT3_lateral_bracing": {
+          "states": [
+            "DS5",
+            "DS6",
+            "DS7"
+          ],
+          "expected_relation": "lateral_bracing",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 3
+        },
+        "DT4_floor_beam_main_member": {
+          "states": [
+            "DS8"
+          ],
+          "expected_relation": "deck_truss_interface",
+          "predicted_relation": "deck_transverse",
+          "aggregate_rank": 6
+        }
+      }
+    }
+  },
+  "permutation": {
+    "count": 1000,
+    "scheme": "shuffle edge-family labels while preserving family sizes",
+    "state_mrr_one_sided_p": 0.3696303696303696,
+    "type_mrr_one_sided_p": 0.2787212787212787,
+    "state_accuracy_one_sided_p": 0.7072927072927073,
+    "type_accuracy_one_sided_p": 0.5124875124875125,
+    "state_mrr_null_05_50_95": [
+      0.2457291666666667,
+      0.3958333333333333,
+      0.6666666666666666
+    ],
+    "type_mrr_null_05_50_95": [
+      0.225,
+      0.4145833333333333,
+      0.675
+    ]
+  }
+}

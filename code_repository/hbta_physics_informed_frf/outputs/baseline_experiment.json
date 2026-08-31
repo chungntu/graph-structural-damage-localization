@@ -1,0 +1,459 @@
+{
+  "status": "preliminary_screening_not_final_inference",
+  "question": "Does a modal prior improve healthy complex-FRF modelling and one-class damage screening under limited healthy blocks?",
+  "data_split": {
+    "reference_recording": "MVS_P2_UDS_NM_Z_01",
+    "training_blocks": "first k of blocks 0-7",
+    "healthy_development_blocks": "blocks 0-3 train, 4-7 validation",
+    "calibration_blocks": "reference blocks 8-10",
+    "heldout_healthy_blocks": "reference blocks 11-13",
+    "external_nuisance_stress_test": "MVS_P2_UDS_NM_Z_02: different day, 10 C, train passing",
+    "locked_damage_recordings": "MVS_P2_DS1-DS8_NM_Z_01"
+  },
+  "gp_hyperparameters_selected_on_healthy_only": {
+    "black_box": {
+      "length_scale_hz": 0.15,
+      "nugget_ratio": 0.1,
+      "development_loss": 0.00474506873581113
+    },
+    "grey_box": {
+      "length_scale_hz": 0.3,
+      "nugget_ratio": 0.01,
+      "development_loss": 0.004953917197219741
+    }
+  },
+  "training_sizes": {
+    "1": {
+      "white_modal": {
+        "calibration_threshold": 0.02615593076373594,
+        "calibration_score_median": 0.021367763304745047,
+        "heldout_healthy_score_median": 0.021471733161665382,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.08281799188002621,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 0.9910714285714286,
+        "macro_state_auc": 0.9910714285714286,
+        "macro_state_tpr": 0.9732142857142857,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 0.9285714285714286,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 0.7857142857142857,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "black_gp": {
+        "calibration_threshold": 0.020793779746586444,
+        "calibration_score_median": 0.017555516319231874,
+        "heldout_healthy_score_median": 0.016229852926849565,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.07762735394568507,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 0.9910714285714286,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 0.9285714285714286,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "grey_modal_gp": {
+        "calibration_threshold": 0.02377256069030738,
+        "calibration_score_median": 0.019866746820189345,
+        "heldout_healthy_score_median": 0.01785633249800388,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.07815119780410866,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 0.9970238095238095,
+        "macro_state_auc": 0.9970238095238095,
+        "macro_state_tpr": 0.9821428571428572,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 0.9761904761904762,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 0.8571428571428571,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "modal_parameters": {
+        "frequencies_hz": [
+          6.808933491393871,
+          17.253439110465504,
+          24.116614580788532
+        ],
+        "damping_ratios": [
+          0.020944139892191255,
+          0.02120342948808945,
+          0.019826443356800682
+        ],
+        "optimizer_success": true
+      }
+    },
+    "2": {
+      "white_modal": {
+        "calibration_threshold": 0.021129542440112878,
+        "calibration_score_median": 0.020914394763619018,
+        "heldout_healthy_score_median": 0.01975774344085864,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.08794105435399757,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "black_gp": {
+        "calibration_threshold": 0.009071305698571458,
+        "calibration_score_median": 0.008209897775302556,
+        "heldout_healthy_score_median": 0.007806712453591264,
+        "heldout_healthy_false_alarm_rate": 0.3333333333333333,
+        "external_healthy_score_median": 0.07595826864577149,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "grey_modal_gp": {
+        "calibration_threshold": 0.0085430314698016,
+        "calibration_score_median": 0.007680639589709199,
+        "heldout_healthy_score_median": 0.006884125464596039,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.07348716100068198,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "modal_parameters": {
+        "frequencies_hz": [
+          6.811573157212684,
+          17.245465885166936,
+          24.136932934645873
+        ],
+        "damping_ratios": [
+          0.021037090240076085,
+          0.020119338303605495,
+          0.02173388996851266
+        ],
+        "optimizer_success": true
+      }
+    },
+    "4": {
+      "white_modal": {
+        "calibration_threshold": 0.023323085608771162,
+        "calibration_score_median": 0.02124208047794217,
+        "heldout_healthy_score_median": 0.021450879989912866,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.09117871234078045,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "black_gp": {
+        "calibration_threshold": 0.010203979799448905,
+        "calibration_score_median": 0.0071663570123675045,
+        "heldout_healthy_score_median": 0.008451670454119355,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.08086579142547526,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "grey_modal_gp": {
+        "calibration_threshold": 0.007537928857008669,
+        "calibration_score_median": 0.005391338014591258,
+        "heldout_healthy_score_median": 0.006184067310873759,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.074957632061562,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "modal_parameters": {
+        "frequencies_hz": [
+          6.811678063534194,
+          17.238338285937935,
+          24.145485760420936
+        ],
+        "damping_ratios": [
+          0.021467041614316274,
+          0.020836258678341674,
+          0.02295565697364676
+        ],
+        "optimizer_success": true
+      }
+    },
+    "8": {
+      "white_modal": {
+        "calibration_threshold": 0.02508524346676558,
+        "calibration_score_median": 0.022193676987158503,
+        "heldout_healthy_score_median": 0.022580587855617992,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.09490074663108922,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "black_gp": {
+        "calibration_threshold": 0.011850422124346727,
+        "calibration_score_median": 0.008354488577920097,
+        "heldout_healthy_score_median": 0.009382464940370192,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.08743408580807019,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "grey_modal_gp": {
+        "calibration_threshold": 0.008184682035831484,
+        "calibration_score_median": 0.0055958325740986786,
+        "heldout_healthy_score_median": 0.006088204850853262,
+        "heldout_healthy_false_alarm_rate": 0.0,
+        "external_healthy_score_median": 0.08118145550653617,
+        "external_healthy_false_alarm_rate": 1.0,
+        "pooled_damage_auc": 1.0,
+        "macro_state_auc": 1.0,
+        "macro_state_tpr": 1.0,
+        "per_state_auc": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        },
+        "per_state_tpr": {
+          "DS1": 1.0,
+          "DS2": 1.0,
+          "DS3": 1.0,
+          "DS4": 1.0,
+          "DS5": 1.0,
+          "DS6": 1.0,
+          "DS7": 1.0,
+          "DS8": 1.0
+        }
+      },
+      "modal_parameters": {
+        "frequencies_hz": [
+          6.81587177383553,
+          17.24196093572959,
+          24.148168191497003
+        ],
+        "damping_ratios": [
+          0.02163057669532593,
+          0.020585368723754063,
+          0.023614527228151744
+        ],
+        "optimizer_success": true
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "source": "D:\\BIG DATA\\Hell Bridge Test Arena HBTA\\data_100Hz.h5",
+  "source_unchanged_during_audit": true,
+  "recordings": [
+    "MVS_P2_UDS_NM_Z_01",
+    "MVS_P2_UDS_NM_Z_02"
+  ],
+  "block_seconds": 60.0,
+  "trim_seconds": 30.0,
+  "welch_nperseg": 1024,
+  "frequency_resolution_hz": 0.09765625,
+  "frequency_band_hz": [
+    1.07421875,
+    29.98046875
+  ],
+  "block_counts": {
+    "MVS_P2_UDS_NM_Z_01": 14,
+    "MVS_P2_UDS_NM_Z_02": 14
+  },
+  "median_coherence_all_sensor_frequency": {
+    "MVS_P2_UDS_NM_Z_01": 0.9768017723686608,
+    "MVS_P2_UDS_NM_Z_02": 0.9702928025277311
+  },
+  "usable_frequency_bin_fraction": 0.9023569023569024,
+  "median_usable_sensor_fraction": 1.0,
+  "modal_peaks_hz": {
+    "MVS_P2_UDS_NM_Z_01": [
+      6.8359375,
+      12.20703125,
+      14.2578125,
+      16.015625,
+      17.28515625,
+      24.12109375,
+      29.296875
+    ],
+    "MVS_P2_UDS_NM_Z_02": [
+      6.73828125,
+      12.20703125,
+      15.52734375,
+      16.9921875,
+      24.0234375,
+      29.00390625
+    ]
+  },
+  "matched_modal_peaks": [
+    {
+      "recording_1_hz": 6.8359375,
+      "recording_2_hz": 6.73828125,
+      "absolute_difference_hz": 0.09765625
+    },
+    {
+      "recording_1_hz": 12.20703125,
+      "recording_2_hz": 12.20703125,
+      "absolute_difference_hz": 0.0
+    },
+    {
+      "recording_1_hz": 24.12109375,
+      "recording_2_hz": 24.0234375,
+      "absolute_difference_hz": 0.09765625
+    }
+  ],
+  "matched_peak_fraction": 0.5,
+  "healthy_log_magnitude_correlation": 0.9792957270171603,
+  "healthy_median_absolute_difference_db": 0.884979958048909,
+  "healthy_median_absolute_phase_difference_degrees": 4.544121974958964,
+  "preliminary_go": true,
+  "preliminary_go_criteria": {
+    "usable_frequency_bin_fraction_min": 0.1,
+    "modal_peaks_each_min": 3,
+    "matched_peak_fraction_min": 0.5,
+    "healthy_log_magnitude_correlation_min": 0.65
+  }
+}

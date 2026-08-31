@@ -1,0 +1,169 @@
+{
+  "feature_definition": "three shared modal frequencies; complex residues are fitted freely for every sensor and every block",
+  "selected_sensor_names": [
+    "AL10",
+    "AL17",
+    "AL33",
+    "AL35",
+    "AL12",
+    "AL05",
+    "AL34",
+    "AL19",
+    "AL08",
+    "AL18",
+    "AL07",
+    "AL06"
+  ],
+  "frequency_resolution_hz": 0.09765625,
+  "optimizer_success_fraction": 1.0,
+  "training_sizes": {
+    "1": {
+      "healthy_mean_frequencies_hz": [
+        6.820295107859997,
+        17.266827079074307,
+        24.121732348415744
+      ],
+      "healthy_standard_deviation_floor_hz": [
+        0.09765625,
+        0.09765625,
+        0.09765625
+      ],
+      "threshold": 0.11819471498956903,
+      "same_session_false_alarm_rate": 0.3333333333333333,
+      "external_healthy_false_alarm_rate": 1.0,
+      "macro_state_auc": 1.0,
+      "macro_state_tpr": 1.0,
+      "per_state_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_tpr": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      }
+    },
+    "2": {
+      "healthy_mean_frequencies_hz": [
+        6.821981779216605,
+        17.249493478013527,
+        24.144807493055808
+      ],
+      "healthy_standard_deviation_floor_hz": [
+        0.09765625,
+        0.09765625,
+        0.09765625
+      ],
+      "threshold": 0.11020631392706229,
+      "same_session_false_alarm_rate": 0.0,
+      "external_healthy_false_alarm_rate": 1.0,
+      "macro_state_auc": 1.0,
+      "macro_state_tpr": 1.0,
+      "per_state_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_tpr": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      }
+    },
+    "4": {
+      "healthy_mean_frequencies_hz": [
+        6.822449214748318,
+        17.23518839053679,
+        24.15340040765046
+      ],
+      "healthy_standard_deviation_floor_hz": [
+        0.09765625,
+        0.09765625,
+        0.09765625
+      ],
+      "threshold": 0.20137050249816396,
+      "same_session_false_alarm_rate": 0.0,
+      "external_healthy_false_alarm_rate": 1.0,
+      "macro_state_auc": 1.0,
+      "macro_state_tpr": 1.0,
+      "per_state_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_tpr": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      }
+    },
+    "8": {
+      "healthy_mean_frequencies_hz": [
+        6.826234444693718,
+        17.233081272189644,
+        24.156501771274197
+      ],
+      "healthy_standard_deviation_floor_hz": [
+        0.09765625,
+        0.09765625,
+        0.09765625
+      ],
+      "threshold": 0.21593444723738336,
+      "same_session_false_alarm_rate": 0.0,
+      "external_healthy_false_alarm_rate": 1.0,
+      "macro_state_auc": 1.0,
+      "macro_state_tpr": 0.9910714285714286,
+      "per_state_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_tpr": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 0.9285714285714286,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      }
+    }
+  }
+}

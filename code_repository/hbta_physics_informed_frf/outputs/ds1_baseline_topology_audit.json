@@ -1,0 +1,279 @@
+{
+  "status": "ds1_simple_baseline_and_graph_construction_audit",
+  "permutation_count": 1000,
+  "score_definitions": {
+    "normalized_edge_gradient": "mean_m |b_e^H r_m|^2/(||b_e||^2 ||r_m||^2)",
+    "raw_edge_difference": "mean_m |b_e^H r_m|^2",
+    "endpoint_node_energy": "mean modal residual energy at the two edge endpoints",
+    "normalized_endpoint_node_energy": "mean endpoint-node energy after unit total residual energy is imposed separately for every mode",
+    "healthy_median_subtracted": "normalized edge score minus the edge-specific median LORO healthy score"
+  },
+  "simple_baselines_on_physical_graph": {
+    "normalized_edge_gradient": {
+      "P1": {
+        "damage": {
+          "target_pass_ranks": [
+            4,
+            3
+          ],
+          "target_aggregate_rank": 4,
+          "target_aggregate_score": 0.05702289317466285,
+          "permutation_mrr_one_sided_p": 0.03496503496503497
+        },
+        "healthy_loro": {
+          "target_pass_ranks": [
+            31,
+            28,
+            30,
+            32
+          ],
+          "target_aggregate_rank": 30,
+          "target_aggregate_score": 0.008378209655726712
+        },
+        "healthy_median_subtracted": {
+          "target_pass_ranks": [
+            4,
+            4
+          ],
+          "target_aggregate_rank": 4,
+          "target_aggregate_score": 0.04864468351893614,
+          "permutation_mrr_one_sided_p": 0.04995004995004995
+        }
+      },
+      "P2": {
+        "damage": {
+          "target_pass_ranks": [
+            1,
+            1
+          ],
+          "target_aggregate_rank": 1,
+          "target_aggregate_score": 0.23714191761727027,
+          "permutation_mrr_one_sided_p": 0.012987012987012988
+        },
+        "healthy_loro": {
+          "target_pass_ranks": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "target_aggregate_rank": 2,
+          "target_aggregate_score": 0.052487273408055674
+        },
+        "healthy_median_subtracted": {
+          "target_pass_ranks": [
+            1,
+            1
+          ],
+          "target_aggregate_rank": 1,
+          "target_aggregate_score": 0.1846546442092146,
+          "permutation_mrr_one_sided_p": 0.012987012987012988
+        }
+      }
+    },
+    "raw_edge_difference": {
+      "P1": {
+        "damage": {
+          "target_pass_ranks": [
+            8,
+            6
+          ],
+          "target_aggregate_rank": 8,
+          "target_aggregate_score": 0.00010619818658596013,
+          "permutation_mrr_one_sided_p": 0.04995004995004995
+        },
+        "healthy_loro": {
+          "target_pass_ranks": [
+            27,
+            34,
+            30,
+            32
+          ],
+          "target_aggregate_rank": 30,
+          "target_aggregate_score": 3.3745690577678175e-05
+        }
+      },
+      "P2": {
+        "damage": {
+          "target_pass_ranks": [
+            1,
+            1
+          ],
+          "target_aggregate_rank": 1,
+          "target_aggregate_score": 0.0026186858352662532,
+          "permutation_mrr_one_sided_p": 0.014985014985014986
+        },
+        "healthy_loro": {
+          "target_pass_ranks": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "target_aggregate_rank": 1,
+          "target_aggregate_score": 0.0004184554635883272
+        }
+      }
+    },
+    "endpoint_node_energy": {
+      "P1": {
+        "damage": {
+          "target_pass_ranks": [
+            2,
+            2
+          ],
+          "target_aggregate_rank": 2,
+          "target_aggregate_score": 0.00012384980522734413,
+          "permutation_mrr_one_sided_p": 0.02097902097902098
+        },
+        "healthy_loro": {
+          "target_pass_ranks": [
+            98,
+            92,
+            95,
+            91
+          ],
+          "target_aggregate_rank": 96,
+          "target_aggregate_score": 2.7181126860384952e-05
+        }
+      },
+      "P2": {
+        "damage": {
+          "target_pass_ranks": [
+            2,
+            2
+          ],
+          "target_aggregate_rank": 2,
+          "target_aggregate_score": 0.0007848081560466367,
+          "permutation_mrr_one_sided_p": 0.023976023976023976
+        },
+        "healthy_loro": {
+          "target_pass_ranks": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "target_aggregate_rank": 4,
+          "target_aggregate_score": 0.00016596855976874634
+        }
+      }
+    },
+    "normalized_endpoint_node_energy": {
+      "P1": {
+        "damage": {
+          "target_pass_ranks": [
+            2,
+            2
+          ],
+          "target_aggregate_rank": 2,
+          "target_aggregate_score": 0.10023225176361579,
+          "permutation_mrr_one_sided_p": 0.022977022977022976
+        },
+        "healthy_loro": {
+          "target_pass_ranks": [
+            90,
+            93,
+            91,
+            89
+          ],
+          "target_aggregate_rank": 91,
+          "target_aggregate_score": 0.012693413589783854
+        }
+      },
+      "P2": {
+        "damage": {
+          "target_pass_ranks": [
+            2,
+            2
+          ],
+          "target_aggregate_rank": 2,
+          "target_aggregate_score": 0.16268152780360606,
+          "permutation_mrr_one_sided_p": 0.02197802197802198
+        },
+        "healthy_loro": {
+          "target_pass_ranks": [
+            10,
+            9,
+            6,
+            13
+          ],
+          "target_aggregate_rank": 10,
+          "target_aggregate_score": 0.03411588372376885
+        }
+      }
+    }
+  },
+  "graph_construction_sensitivity": {
+    "physical": {
+      "candidate_edge_count": 122,
+      "target_edge_represented": true,
+      "positions": {
+        "P1": {
+          "target_pass_ranks": [
+            4,
+            3
+          ],
+          "target_aggregate_rank": 4,
+          "target_aggregate_score": 0.05702289317466285
+        },
+        "P2": {
+          "target_pass_ranks": [
+            1,
+            1
+          ],
+          "target_aggregate_rank": 1,
+          "target_aggregate_score": 0.23714191761727027
+        }
+      }
+    },
+    "physical_without_interface": {
+      "candidate_edge_count": 104,
+      "target_edge_represented": true,
+      "positions": {
+        "P1": {
+          "target_pass_ranks": [
+            4,
+            3
+          ],
+          "target_aggregate_rank": 4,
+          "target_aggregate_score": 0.05702289317466285
+        },
+        "P2": {
+          "target_pass_ranks": [
+            1,
+            1
+          ],
+          "target_aggregate_rank": 1,
+          "target_aggregate_score": 0.23714191761727027
+        }
+      }
+    },
+    "four_nearest_geometry": {
+      "candidate_edge_count": 136,
+      "target_edge_represented": false
+    },
+    "physical_plus_geometry": {
+      "candidate_edge_count": 208,
+      "target_edge_represented": true,
+      "positions": {
+        "P1": {
+          "target_pass_ranks": [
+            7,
+            6
+          ],
+          "target_aggregate_rank": 7,
+          "target_aggregate_score": 0.05702289317466285
+        },
+        "P2": {
+          "target_pass_ranks": [
+            1,
+            1
+          ],
+          "target_aggregate_rank": 1,
+          "target_aggregate_score": 0.23714191761727027
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2479 @@
+{
+  "status": "exploratory_drawing_locked_spatial_region_localization",
+  "ground_truth": {
+    "coordinates_x_m": {
+      "DS1": [
+        -3.5
+      ],
+      "DS2": [
+        -3.5
+      ],
+      "DS3": [
+        -8.619151060243272
+      ],
+      "DS4": [
+        -5.580701453883728
+      ],
+      "DS5": [
+        -7.435443109621872
+      ],
+      "DS6": [
+        -1.5632217652924947
+      ],
+      "DS7": [
+        -7.435443109621872,
+        -1.5632217652924947
+      ],
+      "DS8": [
+        2.2106090374485206
+      ]
+    },
+    "source": "published HBTA damage schematic, red-mark digitization",
+    "calibration": "common deck offset fixes independently known DS1 x=-3.5 m",
+    "scope": "longitudinal region; not exact joint/member identification; DS7 has two target regions",
+    "primary_tolerance_m": 3.5
+  },
+  "spatial_model": {
+    "candidate_centers_m": [
+      -14.0,
+      14.0,
+      0.25
+    ],
+    "primary_kernel": "normalized Gaussian average over all edge types",
+    "primary_bandwidth_m": 3.5
+  },
+  "methods": {
+    "endpoint_contrast": {
+      "primary": {
+        "bandwidth_m": 3.5,
+        "tolerance_m": 3.5,
+        "mean_absolute_localization_error_m": 4.359915941853164,
+        "median_absolute_localization_error_m": 2.4683891173537527,
+        "target_fraction_within_one_panel": 0.5555555555555556,
+        "state_fraction_correct_at_both_positions": 0.375,
+        "states": {
+          "DS1": {
+            "ground_truth_x_m": [
+              -3.5
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  -5.75
+                ],
+                "matched_absolute_errors_m": [
+                  2.25
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.01570365684432434
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -4.75
+                ],
+                "matched_absolute_errors_m": [
+                  1.25
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.023570930242570193
+              }
+            },
+            "correct_at_both_positions": true
+          },
+          "DS2": {
+            "ground_truth_x_m": [
+              -3.5
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  -5.25
+                ],
+                "matched_absolute_errors_m": [
+                  1.75
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.03529384617384977
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -4.5
+                ],
+                "matched_absolute_errors_m": [
+                  1.0
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.03450479538285521
+              }
+            },
+            "correct_at_both_positions": true
+          },
+          "DS3": {
+            "ground_truth_x_m": [
+              -8.619151060243272
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  4.0
+                ],
+                "matched_absolute_errors_m": [
+                  12.619151060243272
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.016743740374891646
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -3.0
+                ],
+                "matched_absolute_errors_m": [
+                  5.619151060243272
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.01165254257422451
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS4": {
+            "ground_truth_x_m": [
+              -5.580701453883728
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  0.0
+                ],
+                "matched_absolute_errors_m": [
+                  5.580701453883728
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.015393742939040257
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -3.75
+                ],
+                "matched_absolute_errors_m": [
+                  1.8307014538837283
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.012431758344086908
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS5": {
+            "ground_truth_x_m": [
+              -7.435443109621872
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  4.5
+                ],
+                "matched_absolute_errors_m": [
+                  11.935443109621872
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.013830532703796403
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -5.25
+                ],
+                "matched_absolute_errors_m": [
+                  2.185443109621872
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.011640722106406973
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS6": {
+            "ground_truth_x_m": [
+              -1.5632217652924947
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  4.75
+                ],
+                "matched_absolute_errors_m": [
+                  6.313221765292495
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.016396600175974354
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -3.5
+                ],
+                "matched_absolute_errors_m": [
+                  1.9367782347075053
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.013471121960722829
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS7": {
+            "ground_truth_x_m": [
+              -7.435443109621872,
+              -1.5632217652924947
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  -14.0,
+                  5.0
+                ],
+                "matched_absolute_errors_m": [
+                  6.564556890378128,
+                  6.563221765292495
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.015778296797918964
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -14.0,
+                  -4.25
+                ],
+                "matched_absolute_errors_m": [
+                  6.564556890378128,
+                  2.6867782347075053
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.012327405617692628
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS8": {
+            "ground_truth_x_m": [
+              2.2106090374485206
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  3.5
+                ],
+                "matched_absolute_errors_m": [
+                  1.2893909625514794
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.020024059117334122
+              },
+              "P2": {
+                "predicted_x_m": [
+                  2.75
+                ],
+                "matched_absolute_errors_m": [
+                  0.5393909625514794
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.014907955282395342
+              }
+            },
+            "correct_at_both_positions": true
+          }
+        }
+      },
+      "bandwidth_sensitivity": {
+        "1.75": {
+          "bandwidth_m": 1.75,
+          "tolerance_m": 3.5,
+          "mean_absolute_localization_error_m": 4.125995610962582,
+          "median_absolute_localization_error_m": 2.967721554810936,
+          "target_fraction_within_one_panel": 0.5555555555555556,
+          "state_fraction_correct_at_both_positions": 0.375,
+          "states": {
+            "DS1": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -6.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.75
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.022047395648652317
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.5
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03468040795073739
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS2": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.053570194810853296
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.75
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.0504796534942472
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS3": {
+              "ground_truth_x_m": [
+                -8.619151060243272
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    13.369151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.021266807670675097
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    5.369151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.013637991567920806
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS4": {
+              "ground_truth_x_m": [
+                -5.580701453883728
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -1.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    4.080701453883728
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.018065606078351275
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.5807014538837283
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.0150287710178564
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS5": {
+              "ground_truth_x_m": [
+                -7.435443109621872
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.185443109621872
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.016715027374352393
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    3.185443109621872
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.01343454616694331
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS6": {
+              "ground_truth_x_m": [
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.313221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.019940950839509766
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.6867782347075053
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.015995442590053373
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS7": {
+              "ground_truth_x_m": [
+                -7.435443109621872,
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.75,
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.6854431096218718,
+                    6.313221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.018931446734355147
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.75,
+                    3.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    3.685443109621872,
+                    5.063221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.01466568453519793
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS8": {
+              "ground_truth_x_m": [
+                2.2106090374485206
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.7893909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.024150237802139853
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    0.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.7106090374485206
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.017171754353092185
+                }
+              },
+              "correct_at_both_positions": true
+            }
+          }
+        },
+        "2.625": {
+          "bandwidth_m": 2.625,
+          "tolerance_m": 3.5,
+          "mean_absolute_localization_error_m": 4.202613043226819,
+          "median_absolute_localization_error_m": 2.842721554810936,
+          "target_fraction_within_one_panel": 0.5555555555555556,
+          "state_fraction_correct_at_both_positions": 0.375,
+          "states": {
+            "DS1": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -6.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.5
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.018216789850047384
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.02823523646133699
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS2": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.5
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.04335938161030762
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.04146707519986638
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS3": {
+              "ground_truth_x_m": [
+                -8.619151060243272
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.869151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.018679983422276704
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    5.119151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.01228386368459194
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS4": {
+              "ground_truth_x_m": [
+                -5.580701453883728
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -1.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    4.580701453883728
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.016440635982268286
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.3307014538837283
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.01319374165045374
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS5": {
+              "ground_truth_x_m": [
+                -7.435443109621872
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    11.935443109621872
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.01500881430186398
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.185443109621872
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.012525260016898809
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS6": {
+              "ground_truth_x_m": [
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.313221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.017905060866921337
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.9367782347075053
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.01429489188537668
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS7": {
+              "ground_truth_x_m": [
+                -7.435443109621872,
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -14.0,
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    6.313221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.017180940464696332
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.25,
+                    2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    3.185443109621872,
+                    4.313221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.013219666857993258
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS8": {
+              "ground_truth_x_m": [
+                2.2106090374485206
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    3.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.5393909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.02204217317690966
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    1.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.46060903744852055
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.015576685091294801
+                }
+              },
+              "correct_at_both_positions": true
+            }
+          }
+        },
+        "3.5": {
+          "bandwidth_m": 3.5,
+          "tolerance_m": 3.5,
+          "mean_absolute_localization_error_m": 4.359915941853164,
+          "median_absolute_localization_error_m": 2.4683891173537527,
+          "target_fraction_within_one_panel": 0.5555555555555556,
+          "state_fraction_correct_at_both_positions": 0.375,
+          "states": {
+            "DS1": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.01570365684432434
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.023570930242570193
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS2": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.75
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03529384617384977
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03450479538285521
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS3": {
+              "ground_truth_x_m": [
+                -8.619151060243272
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.619151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.016743740374891646
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    5.619151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.01165254257422451
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS4": {
+              "ground_truth_x_m": [
+                -5.580701453883728
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    0.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    5.580701453883728
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.015393742939040257
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.8307014538837283
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.012431758344086908
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS5": {
+              "ground_truth_x_m": [
+                -7.435443109621872
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    11.935443109621872
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.013830532703796403
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.185443109621872
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.011640722106406973
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS6": {
+              "ground_truth_x_m": [
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.313221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.016396600175974354
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.9367782347075053
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.013471121960722829
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS7": {
+              "ground_truth_x_m": [
+                -7.435443109621872,
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -14.0,
+                    5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    6.563221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.015778296797918964
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -14.0,
+                    -4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    2.6867782347075053
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.012327405617692628
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS8": {
+              "ground_truth_x_m": [
+                2.2106090374485206
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    3.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.2893909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.020024059117334122
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.5393909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.014907955282395342
+                }
+              },
+              "correct_at_both_positions": true
+            }
+          }
+        },
+        "5.25": {
+          "bandwidth_m": 5.25,
+          "tolerance_m": 3.5,
+          "mean_absolute_localization_error_m": 4.498804830742054,
+          "median_absolute_localization_error_m": 2.342721554810936,
+          "target_fraction_within_one_panel": 0.5555555555555556,
+          "state_fraction_correct_at_both_positions": 0.375,
+          "states": {
+            "DS1": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.012906716430631243
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.01813139544375614
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS2": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.025931114305530918
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.025778964311878132
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS3": {
+              "ground_truth_x_m": [
+                -8.619151060243272
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.869151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.014227136162856506
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -1.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    7.369151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.01097774444214692
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS4": {
+              "ground_truth_x_m": [
+                -5.580701453883728
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    1.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.580701453883728
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.013678468101497082
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.8307014538837283
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.011538611046067472
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS5": {
+              "ground_truth_x_m": [
+                -7.435443109621872
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.185443109621872
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.012372008577580775
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.685443109621872
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.010555772843073725
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS6": {
+              "ground_truth_x_m": [
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.563221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.014392248871536914
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -2.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.9367782347075053
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.012401107356525212
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS7": {
+              "ground_truth_x_m": [
+                -7.435443109621872,
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -14.0,
+                    5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    6.813221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.013869528058937848
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -14.0,
+                    -3.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    1.6867782347075053
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.011222859606555165
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS8": {
+              "ground_truth_x_m": [
+                2.2106090374485206
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    3.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.2893909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.016974516224371183
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.5393909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.01301039879071538
+                }
+              },
+              "correct_at_both_positions": true
+            }
+          }
+        }
+      },
+      "permutation": {
+        "count": 1000,
+        "scheme": "permute longitudinal edge coordinates jointly for all states and both excitation positions; retain edge scores and graph relations",
+        "mean_error_one_sided_p": 0.059940059940059943,
+        "target_fraction_one_sided_p": 0.05194805194805195,
+        "state_both_positions_one_sided_p": 0.0959040959040959,
+        "mean_error_null_05_50_95": [
+          4.247439233701944,
+          7.139345975639584,
+          10.660506743344804
+        ],
+        "target_fraction_null_05_50_95": [
+          0.05555555555555555,
+          0.2777777777777778,
+          0.5555555555555556
+        ]
+      }
+    },
+    "graph_propagated": {
+      "primary": {
+        "bandwidth_m": 3.5,
+        "tolerance_m": 3.5,
+        "mean_absolute_localization_error_m": 4.2974961379967755,
+        "median_absolute_localization_error_m": 2.092721554810936,
+        "target_fraction_within_one_panel": 0.5555555555555556,
+        "state_fraction_correct_at_both_positions": 0.375,
+        "states": {
+          "DS1": {
+            "ground_truth_x_m": [
+              -3.5
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  -5.5
+                ],
+                "matched_absolute_errors_m": [
+                  2.0
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.030661560546397244
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -4.5
+                ],
+                "matched_absolute_errors_m": [
+                  1.0
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.040798144382575126
+              }
+            },
+            "correct_at_both_positions": true
+          },
+          "DS2": {
+            "ground_truth_x_m": [
+              -3.5
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  -5.0
+                ],
+                "matched_absolute_errors_m": [
+                  1.5
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.0538684156542342
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -4.5
+                ],
+                "matched_absolute_errors_m": [
+                  1.0
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.0542714333676059
+              }
+            },
+            "correct_at_both_positions": true
+          },
+          "DS3": {
+            "ground_truth_x_m": [
+              -8.619151060243272
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  4.25
+                ],
+                "matched_absolute_errors_m": [
+                  12.869151060243272
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.03433575325323051
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -3.75
+                ],
+                "matched_absolute_errors_m": [
+                  4.869151060243272
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.027754214503580604
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS4": {
+            "ground_truth_x_m": [
+              -5.580701453883728
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  3.75
+                ],
+                "matched_absolute_errors_m": [
+                  9.330701453883728
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.03158424137524308
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -3.75
+                ],
+                "matched_absolute_errors_m": [
+                  1.8307014538837283
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.02692692178335826
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS5": {
+            "ground_truth_x_m": [
+              -7.435443109621872
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  4.75
+                ],
+                "matched_absolute_errors_m": [
+                  12.185443109621872
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.02928812559245935
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -5.25
+                ],
+                "matched_absolute_errors_m": [
+                  2.185443109621872
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.026551541574454374
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS6": {
+            "ground_truth_x_m": [
+              -1.5632217652924947
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  4.75
+                ],
+                "matched_absolute_errors_m": [
+                  6.313221765292495
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.031168473831127263
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -1.25
+                ],
+                "matched_absolute_errors_m": [
+                  0.3132217652924947
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.02631289021731346
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS7": {
+            "ground_truth_x_m": [
+              -7.435443109621872,
+              -1.5632217652924947
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  -14.0,
+                  5.0
+                ],
+                "matched_absolute_errors_m": [
+                  6.564556890378128,
+                  6.563221765292495
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.03141656892250993
+              },
+              "P2": {
+                "predicted_x_m": [
+                  -14.0,
+                  -2.75
+                ],
+                "matched_absolute_errors_m": [
+                  6.564556890378128,
+                  1.1867782347075053
+                ],
+                "all_targets_within_one_panel": false,
+                "dominant_region_score": 0.026387505233022277
+              }
+            },
+            "correct_at_both_positions": false
+          },
+          "DS8": {
+            "ground_truth_x_m": [
+              2.2106090374485206
+            ],
+            "positions": {
+              "P1": {
+                "predicted_x_m": [
+                  2.75
+                ],
+                "matched_absolute_errors_m": [
+                  0.5393909625514794
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.03125697932690134
+              },
+              "P2": {
+                "predicted_x_m": [
+                  2.75
+                ],
+                "matched_absolute_errors_m": [
+                  0.5393909625514794
+                ],
+                "all_targets_within_one_panel": true,
+                "dominant_region_score": 0.03484446180947238
+              }
+            },
+            "correct_at_both_positions": true
+          }
+        }
+      },
+      "bandwidth_sensitivity": {
+        "1.75": {
+          "bandwidth_m": 1.75,
+          "tolerance_m": 3.5,
+          "mean_absolute_localization_error_m": 4.556551166518138,
+          "median_absolute_localization_error_m": 2.6330722817528,
+          "target_fraction_within_one_panel": 0.5555555555555556,
+          "state_fraction_correct_at_both_positions": 0.375,
+          "states": {
+            "DS1": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -6.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.5
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.04003478489338426
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.5
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.05875332890153624
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS2": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.08341636823847465
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.75
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.08198414939555937
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS3": {
+              "ground_truth_x_m": [
+                -8.619151060243272
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    13.869151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.043356915801101424
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    4.619151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.032405540392037704
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS4": {
+              "ground_truth_x_m": [
+                -5.580701453883728
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    10.830701453883728
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.03926232925615873
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.5807014538837283
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03156553613943254
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS5": {
+              "ground_truth_x_m": [
+                -7.435443109621872
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.685443109621872
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.03553530172959621
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.685443109621872
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.030323196801906815
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS6": {
+              "ground_truth_x_m": [
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    5.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    7.063221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.03768147560258811
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.4367782347075053
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.029805867718554205
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS7": {
+              "ground_truth_x_m": [
+                -7.435443109621872,
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.25,
+                    5.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.185443109621872,
+                    7.063221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.03701801922270399
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.5,
+                    3.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    3.935443109621872,
+                    4.813221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.030132050159480513
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS8": {
+              "ground_truth_x_m": [
+                2.2106090374485206
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.2893909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03412029825457811
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    1.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.9606090374485206
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.0394814916462335
+                }
+              },
+              "correct_at_both_positions": true
+            }
+          }
+        },
+        "2.625": {
+          "bandwidth_m": 2.625,
+          "tolerance_m": 3.5,
+          "mean_absolute_localization_error_m": 4.470878705732539,
+          "median_absolute_localization_error_m": 2.967721554810936,
+          "target_fraction_within_one_panel": 0.5,
+          "state_fraction_correct_at_both_positions": 0.375,
+          "states": {
+            "DS1": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03456801480390105
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.04819256909086414
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS2": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.5
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.06618323895808718
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.06577889338496735
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS3": {
+              "ground_truth_x_m": [
+                -8.619151060243272
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    13.369151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.03792529598954507
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    4.369151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.02972720915463833
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS4": {
+              "ground_truth_x_m": [
+                -5.580701453883728
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    10.330701453883728
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.033815629702793254
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.0807014538837283
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.028587146263545762
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS5": {
+              "ground_truth_x_m": [
+                -7.435443109621872
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.435443109621872
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.0318467495820451
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -5.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.9354431096218718
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.028580902182240464
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS6": {
+              "ground_truth_x_m": [
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.563221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.033868482706852394
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.1867782347075053
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.027083747941167545
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS7": {
+              "ground_truth_x_m": [
+                -7.435443109621872,
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -14.0,
+                    5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    6.813221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.033925213167444276
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.75,
+                    2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    3.685443109621872,
+                    4.313221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.027534112566277382
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS8": {
+              "ground_truth_x_m": [
+                2.2106090374485206
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    3.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.7893909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03283178475386625
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    2.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.28939096255147945
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.037039282956720584
+                }
+              },
+              "correct_at_both_positions": true
+            }
+          }
+        },
+        "3.5": {
+          "bandwidth_m": 3.5,
+          "tolerance_m": 3.5,
+          "mean_absolute_localization_error_m": 4.2974961379967755,
+          "median_absolute_localization_error_m": 2.092721554810936,
+          "target_fraction_within_one_panel": 0.5555555555555556,
+          "state_fraction_correct_at_both_positions": 0.375,
+          "states": {
+            "DS1": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.030661560546397244
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.040798144382575126
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS2": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.5
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.0538684156542342
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.0542714333676059
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS3": {
+              "ground_truth_x_m": [
+                -8.619151060243272
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.869151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.03433575325323051
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    4.869151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.027754214503580604
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS4": {
+              "ground_truth_x_m": [
+                -5.580701453883728
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    3.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    9.330701453883728
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.03158424137524308
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.8307014538837283
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.02692692178335826
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS5": {
+              "ground_truth_x_m": [
+                -7.435443109621872
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.185443109621872
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.02928812559245935
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.185443109621872
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.026551541574454374
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS6": {
+              "ground_truth_x_m": [
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.313221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.031168473831127263
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -1.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.3132217652924947
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.02631289021731346
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS7": {
+              "ground_truth_x_m": [
+                -7.435443109621872,
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -14.0,
+                    5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    6.563221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.03141656892250993
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -14.0,
+                    -2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    1.1867782347075053
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.026387505233022277
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS8": {
+              "ground_truth_x_m": [
+                2.2106090374485206
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.5393909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03125697932690134
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.5393909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03484446180947238
+                }
+              },
+              "correct_at_both_positions": true
+            }
+          }
+        },
+        "5.25": {
+          "bandwidth_m": 5.25,
+          "tolerance_m": 3.5,
+          "mean_absolute_localization_error_m": 4.346187445251497,
+          "median_absolute_localization_error_m": 2.8830722817528,
+          "target_fraction_within_one_panel": 0.5555555555555556,
+          "state_fraction_correct_at_both_positions": 0.375,
+          "states": {
+            "DS1": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.02633462992943043
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.0
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03223461823773377
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS2": {
+              "ground_truth_x_m": [
+                -3.5
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -5.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.75
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.03981704024268606
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    1.25
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.0403419030841159
+                }
+              },
+              "correct_at_both_positions": true
+            },
+            "DS3": {
+              "ground_truth_x_m": [
+                -8.619151060243272
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    12.869151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.029347072170860418
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -2.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.369151060243272
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.02550304001532546
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS4": {
+              "ground_truth_x_m": [
+                -5.580701453883728
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    3.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    8.580701453883728
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.028645014968400672
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -3.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    2.3307014538837283
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.024650620961196388
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS5": {
+              "ground_truth_x_m": [
+                -7.435443109621872
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    11.935443109621872
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.025877483257652614
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -4.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    3.435443109621872
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.024213209957081944
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS6": {
+              "ground_truth_x_m": [
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    4.5
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.063221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.02734516085149656
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -0.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.8132217652924947
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.024962483944970183
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS7": {
+              "ground_truth_x_m": [
+                -7.435443109621872,
+                -1.5632217652924947
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    -14.0,
+                    5.0
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    6.563221765292495
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.027636168194567625
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    -14.0,
+                    -1.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    6.564556890378128,
+                    0.3132217652924947
+                  ],
+                  "all_targets_within_one_panel": false,
+                  "dominant_region_score": 0.02496347977450627
+                }
+              },
+              "correct_at_both_positions": false
+            },
+            "DS8": {
+              "ground_truth_x_m": [
+                2.2106090374485206
+              ],
+              "positions": {
+                "P1": {
+                  "predicted_x_m": [
+                    2.25
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.03939096255147945
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.027877214032831034
+                },
+                "P2": {
+                  "predicted_x_m": [
+                    2.75
+                  ],
+                  "matched_absolute_errors_m": [
+                    0.5393909625514794
+                  ],
+                  "all_targets_within_one_panel": true,
+                  "dominant_region_score": 0.029964085845352394
+                }
+              },
+              "correct_at_both_positions": true
+            }
+          }
+        }
+      },
+      "permutation": {
+        "count": 1000,
+        "scheme": "permute longitudinal edge coordinates jointly for all states and both excitation positions; retain edge scores and graph relations",
+        "mean_error_one_sided_p": 0.07892107892107893,
+        "target_fraction_one_sided_p": 0.058941058941058944,
+        "state_both_positions_one_sided_p": 0.1068931068931069,
+        "mean_error_null_05_50_95": [
+          3.965433007870192,
+          7.095567736882678,
+          11.362947541986841
+        ],
+        "target_fraction_null_05_50_95": [
+          0.0,
+          0.2777777777777778,
+          0.5555555555555556
+        ]
+      }
+    }
+  }
+}

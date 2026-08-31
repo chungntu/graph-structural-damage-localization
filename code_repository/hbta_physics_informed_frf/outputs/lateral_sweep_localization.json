@@ -1,0 +1,166 @@
+{
+  "status": "exploratory_multireference_lateral_region_localization",
+  "lateral_sensors": [
+    "AG01",
+    "AG02",
+    "AG03",
+    "AG04",
+    "AG05",
+    "AG06",
+    "AG07",
+    "AG08",
+    "AG10",
+    "AG11",
+    "AG12",
+    "AG13",
+    "AG14",
+    "AG15",
+    "AG16",
+    "AG17",
+    "AG18"
+  ],
+  "modal_centers_hz": [
+    3.1,
+    6.1,
+    7.25,
+    8.65,
+    12.75,
+    16.1
+  ],
+  "feature_quality": {
+    "fit_count": 40,
+    "optimizer_success_fraction": 1.0,
+    "median_coherence": 0.9763075645226739,
+    "minimum_coherent_fraction": 0.8929340028694405,
+    "weighted_nmse_median_min_max": [
+      0.22385029977998094,
+      0.17142082320217883,
+      0.4451149151621707
+    ]
+  },
+  "healthy_only_graph_hyperparameters": {
+    "alpha_factor": 1.0,
+    "nugget_ratio": 1.0,
+    "mean_twofold_healthy_nll": 45419.007913653375,
+    "fold_losses": [
+      75287.91020304438,
+      15550.105624262382
+    ]
+  },
+  "methods": {
+    "endpoint_contrast": {
+      "mean_absolute_error_m": 4.156610882646247,
+      "target_fraction_within_one_panel": 0.5,
+      "states": {
+        "DS5": {
+          "ground_truth_x_m": [
+            -7.435443109621872
+          ],
+          "predicted_x_m": [
+            -0.5
+          ],
+          "matched_absolute_errors_m": [
+            6.935443109621872
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS6": {
+          "ground_truth_x_m": [
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            1.0
+          ],
+          "matched_absolute_errors_m": [
+            2.5632217652924947
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS7": {
+          "ground_truth_x_m": [
+            -7.435443109621872,
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -12.0,
+            1.0
+          ],
+          "matched_absolute_errors_m": [
+            4.564556890378128,
+            2.5632217652924947
+          ],
+          "all_targets_within_one_panel": false
+        }
+      },
+      "permutation": {
+        "count": 1000,
+        "mean_error_one_sided_p": 0.1918081918081918,
+        "mean_error_null_05_50_95": [
+          3.2478213597166365,
+          6.499332437457183,
+          11.439080544132311
+        ]
+      }
+    },
+    "graph_propagated": {
+      "mean_absolute_error_m": 4.406610882646247,
+      "target_fraction_within_one_panel": 0.5,
+      "states": {
+        "DS5": {
+          "ground_truth_x_m": [
+            -7.435443109621872
+          ],
+          "predicted_x_m": [
+            -0.5
+          ],
+          "matched_absolute_errors_m": [
+            6.935443109621872
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS6": {
+          "ground_truth_x_m": [
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            0.5
+          ],
+          "matched_absolute_errors_m": [
+            2.0632217652924947
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS7": {
+          "ground_truth_x_m": [
+            -7.435443109621872,
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -14.0,
+            0.5
+          ],
+          "matched_absolute_errors_m": [
+            6.564556890378128,
+            2.0632217652924947
+          ],
+          "all_targets_within_one_panel": false
+        }
+      },
+      "permutation": {
+        "count": 1000,
+        "mean_error_one_sided_p": 0.22877122877122877,
+        "mean_error_null_05_50_95": [
+          3.3419141278778306,
+          6.406610882646248,
+          11.564080544132311
+        ]
+      }
+    }
+  },
+  "raw_source_integrity": {
+    "path": "D:\\BIG DATA\\Hell Bridge Test Arena HBTA\\data_100Hz.h5",
+    "size_bytes": 2516574688,
+    "mtime_ns": 1785139084912832700,
+    "copied_into_project": false
+  }
+}

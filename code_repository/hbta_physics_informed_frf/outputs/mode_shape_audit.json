@@ -1,0 +1,157 @@
+{
+  "feature_definition": "mean across three modes of one minus complex MAC; modal residues remove the unknown input participation scalar",
+  "training_sizes": {
+    "1": {
+      "threshold": 0.008609428227738691,
+      "same_session_false_alarm_rate": 0.0,
+      "external_healthy_false_alarm_rate": 1.0,
+      "same_session_macro_state_auc": 1.0,
+      "external_healthy_macro_state_auc": 0.9521683673469388,
+      "macro_state_tpr": 1.0,
+      "per_state_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_external_healthy_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 0.9030612244897959,
+        "DS4": 0.9336734693877551,
+        "DS5": 0.7806122448979592,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_tpr": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      }
+    },
+    "2": {
+      "threshold": 0.005762485632928971,
+      "same_session_false_alarm_rate": 0.0,
+      "external_healthy_false_alarm_rate": 1.0,
+      "same_session_macro_state_auc": 1.0,
+      "external_healthy_macro_state_auc": 0.8864795918367347,
+      "macro_state_tpr": 1.0,
+      "per_state_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_external_healthy_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 0.9081632653061225,
+        "DS4": 0.6989795918367347,
+        "DS5": 0.4846938775510204,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_tpr": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      }
+    },
+    "4": {
+      "threshold": 0.0034986356146777253,
+      "same_session_false_alarm_rate": 0.0,
+      "external_healthy_false_alarm_rate": 1.0,
+      "same_session_macro_state_auc": 1.0,
+      "external_healthy_macro_state_auc": 0.7098214285714285,
+      "macro_state_tpr": 1.0,
+      "per_state_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_external_healthy_auc": {
+        "DS1": 0.9183673469387755,
+        "DS2": 1.0,
+        "DS3": 0.7551020408163265,
+        "DS4": 0.0663265306122449,
+        "DS5": 0.07142857142857142,
+        "DS6": 0.9489795918367347,
+        "DS7": 0.9183673469387755,
+        "DS8": 1.0
+      },
+      "per_state_tpr": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      }
+    },
+    "8": {
+      "threshold": 0.0032907966393971684,
+      "same_session_false_alarm_rate": 0.0,
+      "external_healthy_false_alarm_rate": 1.0,
+      "same_session_macro_state_auc": 1.0,
+      "external_healthy_macro_state_auc": 0.7219387755102041,
+      "macro_state_tpr": 1.0,
+      "per_state_auc": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      },
+      "per_state_external_healthy_auc": {
+        "DS1": 0.9540816326530612,
+        "DS2": 1.0,
+        "DS3": 0.7704081632653061,
+        "DS4": 0.07142857142857142,
+        "DS5": 0.07142857142857142,
+        "DS6": 0.9795918367346939,
+        "DS7": 0.9285714285714286,
+        "DS8": 1.0
+      },
+      "per_state_tpr": {
+        "DS1": 1.0,
+        "DS2": 1.0,
+        "DS3": 1.0,
+        "DS4": 1.0,
+        "DS5": 1.0,
+        "DS6": 1.0,
+        "DS7": 1.0,
+        "DS8": 1.0
+      }
+    }
+  }
+}

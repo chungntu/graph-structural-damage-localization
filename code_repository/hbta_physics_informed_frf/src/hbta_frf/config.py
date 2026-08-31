@@ -1,0 +1,46 @@
+"""Immutable study configuration for the first HBTA feasibility audit."""
+
+from pathlib import Path
+
+
+RAW_HDF5 = Path(r"D:\BIG DATA\Hell Bridge Test Arena HBTA\data_100Hz.h5")
+
+HEALTHY_RECORDINGS = (
+    "MVS_P1_UDS_SM_Z_01",
+    "MVS_P1_UDS_SM_Z_02",
+    "MVS_P2_UDS_SM_Z_01",
+    "MVS_P2_UDS_SM_Z_02",
+    "MVS_P2_UDS_NM_Z_01",
+    "MVS_P2_UDS_NM_Z_02",
+)
+
+DAMAGE_RECORDINGS = tuple(
+    f"MVS_P2_DS{index}_NM_Z_01" for index in range(1, 9)
+)
+
+PRIMARY_HEALTHY_NOISE_RECORDINGS = (
+    "MVS_P2_UDS_NM_Z_01",
+    "MVS_P2_UDS_NM_Z_02",
+)
+
+PRIMARY_DAMAGE_NOISE_RECORDINGS = DAMAGE_RECORDINGS
+
+RESPONSE_SENSORS = (
+    *(f"AG{index:02d}" for index in range(1, 19)),
+    *(f"AL{index:02d}" for index in range(1, 41)),
+)
+
+SHAKER_SENSOR = "AS"
+VERTICAL_CHANNEL = "z"
+
+SAMPLE_RATE_HZ = 100.0
+TRIM_SECONDS = 30.0
+BLOCK_SECONDS = 60.0
+MINIMUM_FREQUENCY_HZ = 1.0
+MAXIMUM_FREQUENCY_HZ = 30.0
+WELCH_NPERSEG = 1024
+WELCH_OVERLAP_FRACTION = 0.5
+
+MODEL_MINIMUM_FREQUENCY_HZ = 5.0
+MODEL_MAXIMUM_FREQUENCY_HZ = 26.0
+INITIAL_VERTICAL_MODAL_FREQUENCIES_HZ = (6.8, 17.1, 24.1)

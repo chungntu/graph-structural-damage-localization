@@ -1,0 +1,30 @@
+{
+  "model_band_hz": [
+    5.0,
+    26.0
+  ],
+  "initial_modal_frequencies_hz": [
+    6.8,
+    17.1,
+    24.1
+  ],
+  "fitted_modal_frequencies_hz": [
+    6.821062829892831,
+    17.2454771984691,
+    24.14109843907712
+  ],
+  "fitted_damping_ratios": [
+    0.021065187130121513,
+    0.02020295459719444,
+    0.023062558580377975
+  ],
+  "median_training_modal_nmse": 0.02065147557307348,
+  "median_heldout_modal_nmse": 0.08760927311175809,
+  "median_training_empirical_mean_nmse": 0.004017499335937155,
+  "median_heldout_empirical_mean_nmse": 0.07930761453501753,
+  "modal_to_empirical_heldout_nmse_ratio": 1.104676689942238,
+  "usable_weight_fraction": 0.9728147554129912,
+  "optimizer_success": true,
+  "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+  "interpretation": "The physical mean is useful only if its held-out error is finite and it captures a non-trivial part of the healthy FRF. It need not beat the empirical mean; the grey-box GP is intended to model its discrepancy."
+}
