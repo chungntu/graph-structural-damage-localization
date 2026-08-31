@@ -14,6 +14,20 @@ Isolated research workspace for testing a single hypothesis:
 - Original code under the prior paper repositories is never executed or edited.
 - Minimal source snapshots are copied into `external_reference/` for provenance
   only. Production code must not import from that directory.
+- `topology/hbta_physical_edge_list.csv` is the frozen physical sensor-graph
+  edge list (122 candidate connections, with relation type, endpoint
+  coordinates, and structural path length) that every `--edge-list` argument
+  below expects. It was previously missing from this repository (not
+  committed by an earlier session) and was recovered from
+  `github.com/chungntu/hbta-topology-guided-edge-transfer`
+  (`HBTA/results/hbta_physical_edge_list.csv`), which shares the same HBTA
+  benchmark and produces byte-identical outputs when combined with the
+  `cache/*.npz` files already committed here. Its authenticity was verified
+  against `outputs/ds1_localization_audit.json` (`dominant_edge_index: 80`
+  corresponds to edge `AL14-AL18` in this CSV, whose midpoint is exactly
+  x=-3.5 m, matching the documented DS1 location). With this file present,
+  every `run_*.py` script below is runnable end-to-end from the committed
+  `cache/` features without any external data.
 
 ## Study boundary
 
