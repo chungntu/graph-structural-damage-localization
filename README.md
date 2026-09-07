@@ -38,11 +38,10 @@ scenario (DS7) is not recovered and is reported as an open limitation.
 
 ```
 latex/                          Manuscript source (compiles to the final PDF)
-  spatial_intelligence_connection_localization.tex   Main paper
-  spatial_intelligence_connection_localization.pdf   Compiled paper
+  graph_based_damage_localization_hbta.tex   Main paper
+  graph_based_damage_localization_hbta.pdf   Compiled paper
   figures/                      Figures included in the paper
   scripts/                      Python scripts that generate those figures
-  backups/                      Snapshot of the manuscript before the last section restructure
 
 code_repository/
   hbta_physics_informed_frf/    Full reproduction pipeline for the experiments
@@ -110,7 +109,7 @@ To recompile the manuscript and its figures:
 cd latex/scripts
 python make_fig_modal_quality_master.py   # and the other make_fig_*.py scripts
 cd ..
-latexmk -pdf spatial_intelligence_connection_localization.tex
+latexmk -pdf graph_based_damage_localization_hbta.tex
 ```
 
 ## Data availability
