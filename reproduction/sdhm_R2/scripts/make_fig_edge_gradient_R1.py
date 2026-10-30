@@ -146,5 +146,6 @@ import os
 # R1: write only into the revision folder; the submitted figures stay untouched.
 script_dir = os.path.dirname(os.path.abspath(__file__))
 out_path = os.path.join(os.path.dirname(script_dir), "figures", "figure_edge_gradient_concept.png")
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
 plt.savefig(out_path, dpi=600, bbox_inches="tight", pad_inches=0.02)
 print(f"Saved {out_path}")

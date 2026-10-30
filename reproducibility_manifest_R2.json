@@ -268,7 +268,7 @@
     },
     {
       "path": "reproduction/sdhm_R2/scripts/make_fig_edge_gradient_R1.py",
-      "sha256": "3bbe0107dc479e286f5f370b64384a22e788e79a5a060cb1a1df38b701684dfc",
+      "sha256": "5301ab461dd43918e030cf331636df8d62b76d6759a0f610023d713fd618d4df",
       "normalization": "text-LF"
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "reproduction/sdhm_R2/scripts/make_fig_modal_fusion_R1.py",
-      "sha256": "ca8545b023ec8c3c8778a48fc31ec7dec5545de37d8a798258894ca75e16b2c1",
+      "sha256": "c61b6c35a137ad46dc3b09339de8805e222b5c3424c50fc4aecabe69f771eb87",
       "normalization": "text-LF"
     },
     {
@@ -303,7 +303,7 @@
     },
     {
       "path": "reproduction/sdhm_R2/scripts/make_fig_smoothing_R1.py",
-      "sha256": "945d5cdb1f7da5da3b037d93578dedee3e19502fd0c7c741bc66ee647c15c0c7",
+      "sha256": "86abb1a7dcf9c877a3fb79824dc2d7eb717a26ca50093c327984b80e99a2f633",
       "normalization": "text-LF"
     },
     {
