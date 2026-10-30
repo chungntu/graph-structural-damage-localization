@@ -1,0 +1,457 @@
+{
+  "0.0200": {
+    "bandwidth_m": 0.02,
+    "bandwidth_ratio_Lp": 0.005714285714285714,
+    "mean_absolute_error_m": 3.0609558846304403,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0230": {
+    "bandwidth_m": 0.022966047346464024,
+    "bandwidth_ratio_Lp": 0.0065617278132754355,
+    "mean_absolute_error_m": 3.0609558846304403,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0264": {
+    "bandwidth_m": 0.02637196653600134,
+    "bandwidth_ratio_Lp": 0.0075348475817146685,
+    "mean_absolute_error_m": 3.0609558846304403,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0303": {
+    "bandwidth_m": 0.03028299160425858,
+    "bandwidth_ratio_Lp": 0.00865228331550245,
+    "mean_absolute_error_m": 3.0887336624082184,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0348": {
+    "bandwidth_m": 0.034774030948798725,
+    "bandwidth_ratio_Lp": 0.009935437413942493,
+    "mean_absolute_error_m": 3.0887336624082184,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0399": {
+    "bandwidth_m": 0.039931102059875836,
+    "bandwidth_ratio_Lp": 0.011408886302821667,
+    "mean_absolute_error_m": 3.116511440185996,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0459": {
+    "bandwidth_m": 0.04585297902517975,
+    "bandwidth_ratio_Lp": 0.013100851150051357,
+    "mean_absolute_error_m": 3.0609558846304403,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0500": {
+    "bandwidth_m": 0.05,
+    "bandwidth_ratio_Lp": 0.014285714285714287,
+    "mean_absolute_error_m": 3.0331781068526626,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0527": {
+    "bandwidth_m": 0.052653084363434986,
+    "bandwidth_ratio_Lp": 0.015043738389552853,
+    "mean_absolute_error_m": 3.0887336624082184,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0605": {
+    "bandwidth_m": 0.06046166142140058,
+    "bandwidth_ratio_Lp": 0.01727476040611445,
+    "mean_absolute_error_m": 3.0887336624082184,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0694": {
+    "bandwidth_m": 0.06942826894248813,
+    "bandwidth_ratio_Lp": 0.019836648269282324,
+    "mean_absolute_error_m": 3.1720669957415515,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0797": {
+    "bandwidth_m": 0.079724645585811,
+    "bandwidth_ratio_Lp": 0.02277847016737457,
+    "mean_absolute_error_m": 3.199844773519329,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.0915": {
+    "bandwidth_m": 0.09154799926018992,
+    "bandwidth_ratio_Lp": 0.026156571217197118,
+    "mean_absolute_error_m": 3.2276225512971073,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.1000": {
+    "bandwidth_m": 0.1,
+    "bandwidth_ratio_Lp": 0.028571428571428574,
+    "mean_absolute_error_m": 3.144289217963774,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.1051": {
+    "bandwidth_m": 0.1051247842741787,
+    "bandwidth_ratio_Lp": 0.030035652649765345,
+    "mean_absolute_error_m": 3.2276225512971073,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.1207": {
+    "bandwidth_m": 0.12071503864638018,
+    "bandwidth_ratio_Lp": 0.03449001104182291,
+    "mean_absolute_error_m": 3.3109558846304403,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.1386": {
+    "bandwidth_m": 0.13861736464915003,
+    "bandwidth_ratio_Lp": 0.03960496132832858,
+    "mean_absolute_error_m": 3.366511440185996,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.1592": {
+    "bandwidth_m": 0.15917464797872233,
+    "bandwidth_ratio_Lp": 0.045478470851063525,
+    "mean_absolute_error_m": 3.4220669957415515,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.1828": {
+    "bandwidth_m": 0.18278062509180398,
+    "bandwidth_ratio_Lp": 0.05222303574051542,
+    "mean_absolute_error_m": 3.3387336624082184,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.2099": {
+    "bandwidth_m": 0.2098874244937329,
+    "bandwidth_ratio_Lp": 0.05996783556963797,
+    "mean_absolute_error_m": 3.255400329074885,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.2410": {
+    "bandwidth_m": 0.2410142264175231,
+    "bandwidth_ratio_Lp": 0.06886120754786375,
+    "mean_absolute_error_m": 3.2276225512971073,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.2500": {
+    "bandwidth_m": 0.25,
+    "bandwidth_ratio_Lp": 0.07142857142857142,
+    "mean_absolute_error_m": 3.2276225512971073,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.2768": {
+    "bandwidth_m": 0.2767572067538116,
+    "bandwidth_ratio_Lp": 0.07907348764394617,
+    "mean_absolute_error_m": 3.144289217963774,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "0.3178": {
+    "bandwidth_m": 0.31780095568915845,
+    "bandwidth_ratio_Lp": 0.09080027305404527,
+    "mean_absolute_error_m": 3.116511440185996,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "0.3649": {
+    "bandwidth_m": 0.36493158975543616,
+    "bandwidth_ratio_Lp": 0.1042661685015532,
+    "mean_absolute_error_m": 3.1720669957415515,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "0.4191": {
+    "bandwidth_m": 0.4190518084271866,
+    "bandwidth_ratio_Lp": 0.11972908812205331,
+    "mean_absolute_error_m": 2.9776225512971073,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "0.4812": {
+    "bandwidth_m": 0.4811981836480066,
+    "bandwidth_ratio_Lp": 0.13748519532800188,
+    "mean_absolute_error_m": 2.894289217963774,
+    "state_fraction_within_one_panel": 0.75,
+    "target_fraction_within_one_panel": 0.6666666666666666
+  },
+  "0.5000": {
+    "bandwidth_m": 0.5,
+    "bandwidth_ratio_Lp": 0.14285714285714285,
+    "mean_absolute_error_m": 2.9220669957415515,
+    "state_fraction_within_one_panel": 0.75,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "0.5526": {
+    "bandwidth_m": 0.5525610134346304,
+    "bandwidth_ratio_Lp": 0.15787457526703724,
+    "mean_absolute_error_m": 2.8387336624082184,
+    "state_fraction_within_one_panel": 0.75,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "0.6345": {
+    "bandwidth_m": 0.6345071198174929,
+    "bandwidth_ratio_Lp": 0.18128774851928367,
+    "mean_absolute_error_m": 2.7276225512971073,
+    "state_fraction_within_one_panel": 0.75,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "0.7286": {
+    "bandwidth_m": 0.728606027769853,
+    "bandwidth_ratio_Lp": 0.20817315079138657,
+    "mean_absolute_error_m": 2.5887336624082184,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.8367": {
+    "bandwidth_m": 0.8366600265340757,
+    "bandwidth_ratio_Lp": 0.23904572186687875,
+    "mean_absolute_error_m": 2.4220669957415515,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.8750": {
+    "bandwidth_m": 0.875,
+    "bandwidth_ratio_Lp": 0.25,
+    "mean_absolute_error_m": 2.394289217963774,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "0.9607": {
+    "bandwidth_m": 0.9607386891137712,
+    "bandwidth_ratio_Lp": 0.27449676831822034,
+    "mean_absolute_error_m": 2.657335429212974,
+    "state_fraction_within_one_panel": 0.75,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "1.1032": {
+    "bandwidth_m": 1.1032185110883317,
+    "bandwidth_ratio_Lp": 0.3152052888823805,
+    "mean_absolute_error_m": 2.7494223097799693,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "1.2668": {
+    "bandwidth_m": 1.2668284279575084,
+    "bandwidth_ratio_Lp": 0.36195097941643095,
+    "mean_absolute_error_m": 2.888311198668858,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.8888888888888888
+  },
+  "1.4547": {
+    "bandwidth_m": 1.4547020828159354,
+    "bandwidth_ratio_Lp": 0.4156291665188387,
+    "mean_absolute_error_m": 2.9994223097799693,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "1.6704": {
+    "bandwidth_m": 1.6704378454475297,
+    "bandwidth_ratio_Lp": 0.47726795584215137,
+    "mean_absolute_error_m": 3.2216445320021916,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "1.7500": {
+    "bandwidth_m": 1.75,
+    "bandwidth_ratio_Lp": 0.5,
+    "mean_absolute_error_m": 3.304977865335525,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "1.9182": {
+    "bandwidth_m": 1.9181677323936657,
+    "bandwidth_ratio_Lp": 0.5480479235410474,
+    "mean_absolute_error_m": 3.3605334208910804,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "2.2026": {
+    "bandwidth_m": 2.2026365480306214,
+    "bandwidth_ratio_Lp": 0.629324728008749,
+    "mean_absolute_error_m": 3.527200087557747,
+    "state_fraction_within_one_panel": 0.875,
+    "target_fraction_within_one_panel": 0.7777777777777778
+  },
+  "2.5293": {
+    "bandwidth_m": 2.5292927624561647,
+    "bandwidth_ratio_Lp": 0.7226550749874756,
+    "mean_absolute_error_m": 3.8327556431133027,
+    "state_fraction_within_one_panel": 0.75,
+    "target_fraction_within_one_panel": 0.6666666666666666
+  },
+  "2.6250": {
+    "bandwidth_m": 2.625,
+    "bandwidth_ratio_Lp": 0.75,
+    "mean_absolute_error_m": 3.8605334208910804,
+    "state_fraction_within_one_panel": 0.625,
+    "target_fraction_within_one_panel": 0.5555555555555556
+  },
+  "2.9044": {
+    "bandwidth_m": 2.9043928667818544,
+    "bandwidth_ratio_Lp": 0.8298265333662441,
+    "mean_absolute_error_m": 4.166088976446636,
+    "state_fraction_within_one_panel": 0.5,
+    "target_fraction_within_one_panel": 0.4444444444444444
+  },
+  "3.3351": {
+    "bandwidth_m": 3.33512120456222,
+    "bandwidth_ratio_Lp": 0.9528917727320628,
+    "mean_absolute_error_m": 4.610533420891081,
+    "state_fraction_within_one_panel": 0.375,
+    "target_fraction_within_one_panel": 0.3333333333333333
+  },
+  "3.5000": {
+    "bandwidth_m": 3.5,
+    "bandwidth_ratio_Lp": 1.0,
+    "mean_absolute_error_m": 4.804977865335526,
+    "state_fraction_within_one_panel": 0.375,
+    "target_fraction_within_one_panel": 0.3333333333333333
+  },
+  "3.8297": {
+    "bandwidth_m": 3.829727574508601,
+    "bandwidth_ratio_Lp": 1.0942078784310287,
+    "mean_absolute_error_m": 5.193866754224414,
+    "state_fraction_within_one_panel": 0.25,
+    "target_fraction_within_one_panel": 0.2222222222222222
+  },
+  "4.3977": {
+    "bandwidth_m": 4.397685240011165,
+    "bandwidth_ratio_Lp": 1.2564814971460472,
+    "mean_absolute_error_m": 5.916088976446637,
+    "state_fraction_within_one_panel": 0.25,
+    "target_fraction_within_one_panel": 0.2222222222222222
+  },
+  "5.0499": {
+    "bandwidth_m": 5.049872371847123,
+    "bandwidth_ratio_Lp": 1.4428206776706065,
+    "mean_absolute_error_m": 6.707595250826082,
+    "state_fraction_within_one_panel": 0.25,
+    "target_fraction_within_one_panel": 0.2222222222222222
+  },
+  "5.2500": {
+    "bandwidth_m": 5.25,
+    "bandwidth_ratio_Lp": 1.5,
+    "mean_absolute_error_m": 6.929817473048304,
+    "state_fraction_within_one_panel": 0.25,
+    "target_fraction_within_one_panel": 0.2222222222222222
+  },
+  "5.7988": {
+    "bandwidth_m": 5.798780399272076,
+    "bandwidth_ratio_Lp": 1.6567943997920216,
+    "mean_absolute_error_m": 8.320006126327577,
+    "state_fraction_within_one_panel": 0.125,
+    "target_fraction_within_one_panel": 0.1111111111111111
+  },
+  "6.6588": {
+    "bandwidth_m": 6.658753260071498,
+    "bandwidth_ratio_Lp": 1.9025009314489993,
+    "mean_absolute_error_m": 8.736672792994245,
+    "state_fraction_within_one_panel": 0.125,
+    "target_fraction_within_one_panel": 0.1111111111111111
+  },
+  "7.6463": {
+    "bandwidth_m": 7.646262131961179,
+    "bandwidth_ratio_Lp": 2.1846463234174798,
+    "mean_absolute_error_m": 9.561252579093916,
+    "state_fraction_within_one_panel": 0.125,
+    "target_fraction_within_one_panel": 0.1111111111111111
+  },
+  "8.7500": {
+    "bandwidth_m": 8.75,
+    "bandwidth_ratio_Lp": 2.5,
+    "mean_absolute_error_m": 9.783474801316139,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "8.7802": {
+    "bandwidth_m": 8.780220907304772,
+    "bandwidth_ratio_Lp": 2.5086345449442207,
+    "mean_absolute_error_m": 9.783474801316139,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "10.0823": {
+    "bandwidth_m": 10.082348453478728,
+    "bandwidth_ratio_Lp": 2.880670986708208,
+    "mean_absolute_error_m": 9.977919245760582,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "11.5776": {
+    "bandwidth_m": 11.577584597307032,
+    "bandwidth_ratio_Lp": 3.3078813135162948,
+    "mean_absolute_error_m": 10.061252579093916,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "13.2946": {
+    "bandwidth_m": 13.294567800972287,
+    "bandwidth_ratio_Lp": 3.798447943134939,
+    "mean_absolute_error_m": 10.14458591242725,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "15.2662": {
+    "bandwidth_m": 15.266183678395288,
+    "bandwidth_ratio_Lp": 4.361766765255797,
+    "mean_absolute_error_m": 10.283474801316139,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "17.5302": {
+    "bandwidth_m": 17.530194857892113,
+    "bandwidth_ratio_Lp": 5.00862710225489,
+    "mean_absolute_error_m": 10.477919245760582,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "20.1300": {
+    "bandwidth_m": 20.12996425495451,
+    "bandwidth_ratio_Lp": 5.751418358558431,
+    "mean_absolute_error_m": 10.700141467982805,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "23.1153": {
+    "bandwidth_m": 23.11528560809569,
+    "bandwidth_ratio_Lp": 6.604367316598768,
+    "mean_absolute_error_m": 11.00569702353836,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "26.5433": {
+    "bandwidth_m": 26.543337185128184,
+    "bandwidth_ratio_Lp": 7.583810624322338,
+    "mean_absolute_error_m": 11.422363690205025,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "30.4798": {
+    "bandwidth_m": 30.479776926340627,
+    "bandwidth_ratio_Lp": 8.708507693240179,
+    "mean_absolute_error_m": 10.237763367119753,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  },
+  "35.0000": {
+    "bandwidth_m": 35.0,
+    "bandwidth_ratio_Lp": 10.0,
+    "mean_absolute_error_m": 10.237763367119753,
+    "state_fraction_within_one_panel": 0.0,
+    "target_fraction_within_one_panel": 0.0
+  }
+}

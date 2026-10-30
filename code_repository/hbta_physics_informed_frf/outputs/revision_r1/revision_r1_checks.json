@@ -1,0 +1,603 @@
+{
+  "status": "sdhm_revision_r1_checks",
+  "primary_configuration": {
+    "bandwidth_m": 1.75,
+    "k": 8,
+    "tolerance_m": 3.5
+  },
+  "healthy_template_euclidean_automac": [
+    [
+      1.0,
+      0.003,
+      0.0022
+    ],
+    [
+      0.003,
+      1.0,
+      0.0005
+    ],
+    [
+      0.0022,
+      0.0005,
+      1.0
+    ]
+  ],
+  "grid_resolution_sensitivity": {
+    "0.05": {
+      "scan_step_m": 0.05,
+      "states_passed": 7,
+      "state_count": 8,
+      "mean_absolute_error_m": 3.277200087557827,
+      "states": {
+        "DS1": {
+          "predicted_x_m": [
+            -6.05
+          ],
+          "errors_m": [
+            2.55
+          ],
+          "pass": true
+        },
+        "DS2": {
+          "predicted_x_m": [
+            -5.65
+          ],
+          "errors_m": [
+            2.15
+          ],
+          "pass": true
+        },
+        "DS3": {
+          "predicted_x_m": [
+            -6.4
+          ],
+          "errors_m": [
+            2.2192
+          ],
+          "pass": true
+        },
+        "DS4": {
+          "predicted_x_m": [
+            -3.1
+          ],
+          "errors_m": [
+            2.4807
+          ],
+          "pass": true
+        },
+        "DS5": {
+          "predicted_x_m": [
+            -10.15
+          ],
+          "errors_m": [
+            2.7146
+          ],
+          "pass": true
+        },
+        "DS6": {
+          "predicted_x_m": [
+            -0.1
+          ],
+          "errors_m": [
+            1.4632
+          ],
+          "pass": true
+        },
+        "DS7": {
+          "predicted_x_m": [
+            -14.0,
+            6.8
+          ],
+          "errors_m": [
+            6.5646,
+            8.3632
+          ],
+          "pass": false
+        },
+        "DS8": {
+          "predicted_x_m": [
+            3.2
+          ],
+          "errors_m": [
+            0.9894
+          ],
+          "pass": true
+        }
+      }
+    },
+    "0.10": {
+      "scan_step_m": 0.1,
+      "states_passed": 7,
+      "state_count": 8,
+      "mean_absolute_error_m": 3.282755643113283,
+      "states": {
+        "DS1": {
+          "predicted_x_m": [
+            -6.1
+          ],
+          "errors_m": [
+            2.6
+          ],
+          "pass": true
+        },
+        "DS2": {
+          "predicted_x_m": [
+            -5.7
+          ],
+          "errors_m": [
+            2.2
+          ],
+          "pass": true
+        },
+        "DS3": {
+          "predicted_x_m": [
+            -6.4
+          ],
+          "errors_m": [
+            2.2192
+          ],
+          "pass": true
+        },
+        "DS4": {
+          "predicted_x_m": [
+            -3.1
+          ],
+          "errors_m": [
+            2.4807
+          ],
+          "pass": true
+        },
+        "DS5": {
+          "predicted_x_m": [
+            -10.1
+          ],
+          "errors_m": [
+            2.6646
+          ],
+          "pass": true
+        },
+        "DS6": {
+          "predicted_x_m": [
+            -0.1
+          ],
+          "errors_m": [
+            1.4632
+          ],
+          "pass": true
+        },
+        "DS7": {
+          "predicted_x_m": [
+            -14.0,
+            6.8
+          ],
+          "errors_m": [
+            6.5646,
+            8.3632
+          ],
+          "pass": false
+        },
+        "DS8": {
+          "predicted_x_m": [
+            3.2
+          ],
+          "errors_m": [
+            0.9894
+          ],
+          "pass": true
+        }
+      }
+    },
+    "0.25": {
+      "scan_step_m": 0.25,
+      "states_passed": 7,
+      "state_count": 8,
+      "mean_absolute_error_m": 3.304977865335525,
+      "states": {
+        "DS1": {
+          "predicted_x_m": [
+            -6.0
+          ],
+          "errors_m": [
+            2.5
+          ],
+          "pass": true
+        },
+        "DS2": {
+          "predicted_x_m": [
+            -5.75
+          ],
+          "errors_m": [
+            2.25
+          ],
+          "pass": true
+        },
+        "DS3": {
+          "predicted_x_m": [
+            -6.5
+          ],
+          "errors_m": [
+            2.1192
+          ],
+          "pass": true
+        },
+        "DS4": {
+          "predicted_x_m": [
+            -3.0
+          ],
+          "errors_m": [
+            2.5807
+          ],
+          "pass": true
+        },
+        "DS5": {
+          "predicted_x_m": [
+            -10.25
+          ],
+          "errors_m": [
+            2.8146
+          ],
+          "pass": true
+        },
+        "DS6": {
+          "predicted_x_m": [
+            0.0
+          ],
+          "errors_m": [
+            1.5632
+          ],
+          "pass": true
+        },
+        "DS7": {
+          "predicted_x_m": [
+            -14.0,
+            6.75
+          ],
+          "errors_m": [
+            6.5646,
+            8.3132
+          ],
+          "pass": false
+        },
+        "DS8": {
+          "predicted_x_m": [
+            3.25
+          ],
+          "errors_m": [
+            1.0394
+          ],
+          "pass": true
+        }
+      }
+    },
+    "0.50": {
+      "scan_step_m": 0.5,
+      "states_passed": 7,
+      "state_count": 8,
+      "mean_absolute_error_m": 3.2494223097799693,
+      "states": {
+        "DS1": {
+          "predicted_x_m": [
+            -6.0
+          ],
+          "errors_m": [
+            2.5
+          ],
+          "pass": true
+        },
+        "DS2": {
+          "predicted_x_m": [
+            -5.5
+          ],
+          "errors_m": [
+            2.0
+          ],
+          "pass": true
+        },
+        "DS3": {
+          "predicted_x_m": [
+            -6.5
+          ],
+          "errors_m": [
+            2.1192
+          ],
+          "pass": true
+        },
+        "DS4": {
+          "predicted_x_m": [
+            -3.0
+          ],
+          "errors_m": [
+            2.5807
+          ],
+          "pass": true
+        },
+        "DS5": {
+          "predicted_x_m": [
+            -10.0
+          ],
+          "errors_m": [
+            2.5646
+          ],
+          "pass": true
+        },
+        "DS6": {
+          "predicted_x_m": [
+            0.0
+          ],
+          "errors_m": [
+            1.5632
+          ],
+          "pass": true
+        },
+        "DS7": {
+          "predicted_x_m": [
+            -14.0,
+            7.0
+          ],
+          "errors_m": [
+            6.5646,
+            8.5632
+          ],
+          "pass": false
+        },
+        "DS8": {
+          "predicted_x_m": [
+            3.0
+          ],
+          "errors_m": [
+            0.7894
+          ],
+          "pass": true
+        }
+      }
+    },
+    "1.00": {
+      "scan_step_m": 1.0,
+      "states_passed": 7,
+      "state_count": 8,
+      "mean_absolute_error_m": 3.3605334208910804,
+      "states": {
+        "DS1": {
+          "predicted_x_m": [
+            -6.0
+          ],
+          "errors_m": [
+            2.5
+          ],
+          "pass": true
+        },
+        "DS2": {
+          "predicted_x_m": [
+            -6.0
+          ],
+          "errors_m": [
+            2.5
+          ],
+          "pass": true
+        },
+        "DS3": {
+          "predicted_x_m": [
+            -6.0
+          ],
+          "errors_m": [
+            2.6192
+          ],
+          "pass": true
+        },
+        "DS4": {
+          "predicted_x_m": [
+            -3.0
+          ],
+          "errors_m": [
+            2.5807
+          ],
+          "pass": true
+        },
+        "DS5": {
+          "predicted_x_m": [
+            -10.0
+          ],
+          "errors_m": [
+            2.5646
+          ],
+          "pass": true
+        },
+        "DS6": {
+          "predicted_x_m": [
+            0.0
+          ],
+          "errors_m": [
+            1.5632
+          ],
+          "pass": true
+        },
+        "DS7": {
+          "predicted_x_m": [
+            -14.0,
+            7.0
+          ],
+          "errors_m": [
+            6.5646,
+            8.5632
+          ],
+          "pass": false
+        },
+        "DS8": {
+          "predicted_x_m": [
+            3.0
+          ],
+          "errors_m": [
+            0.7894
+          ],
+          "pass": true
+        }
+      }
+    }
+  },
+  "normalization_sensitivity": {
+    "unit_euclidean": {
+      "ds1_fused_target_rank": 1,
+      "ds1_fused_target_score": 0.16441742206961535,
+      "ds1_fused_median_score": 0.0030252132388037993,
+      "continuous_states_passed": 7,
+      "continuous_mean_absolute_error_m": 3.304977865335525,
+      "continuous_predicted_x_m": {
+        "DS1": [
+          -6.0
+        ],
+        "DS2": [
+          -5.75
+        ],
+        "DS3": [
+          -6.5
+        ],
+        "DS4": [
+          -3.0
+        ],
+        "DS5": [
+          -10.25
+        ],
+        "DS6": [
+          0.0
+        ],
+        "DS7": [
+          -14.0,
+          6.75
+        ],
+        "DS8": [
+          3.25
+        ]
+      },
+      "median_parallel_residual_energy_fraction": {
+        "DS1": 0.00041817946288094437,
+        "DS2": 0.002910618246702754,
+        "DS3": 0.000363048031628804,
+        "DS4": 0.0003001654932175944,
+        "DS5": 0.0005513357281041695,
+        "DS6": 0.0005394000014515147,
+        "DS7": 0.0010546496074824506,
+        "DS8": 0.009427753984207865
+      }
+    },
+    "modal_scale_factor": {
+      "ds1_fused_target_rank": 1,
+      "ds1_fused_target_score": 0.1636596253423726,
+      "ds1_fused_median_score": 0.0030245439030320894,
+      "continuous_states_passed": 7,
+      "continuous_mean_absolute_error_m": 3.2494223097799693,
+      "continuous_predicted_x_m": {
+        "DS1": [
+          -6.0
+        ],
+        "DS2": [
+          -5.75
+        ],
+        "DS3": [
+          -7.0
+        ],
+        "DS4": [
+          -3.0
+        ],
+        "DS5": [
+          -10.25
+        ],
+        "DS6": [
+          0.0
+        ],
+        "DS7": [
+          -14.0,
+          6.75
+        ],
+        "DS8": [
+          3.25
+        ]
+      },
+      "median_parallel_residual_energy_fraction": {
+        "DS1": 0.001672018328792248,
+        "DS2": 0.01160857844685798,
+        "DS3": 0.0014516582884437196,
+        "DS4": 0.0012003011610515727,
+        "DS5": 0.0022041191391476062,
+        "DS6": 0.002156434082547279,
+        "DS7": 0.004214143120718454,
+        "DS8": 0.037355484432491086
+      }
+    },
+    "reference_component": {
+      "ds1_fused_target_rank": 1,
+      "ds1_fused_target_score": 0.1310912672734191,
+      "ds1_fused_median_score": 0.0023183795787680367,
+      "continuous_states_passed": 5,
+      "continuous_mean_absolute_error_m": 4.24942230977997,
+      "continuous_predicted_x_m": {
+        "DS1": [
+          -5.75
+        ],
+        "DS2": [
+          -5.75
+        ],
+        "DS3": [
+          -6.25
+        ],
+        "DS4": [
+          -2.5
+        ],
+        "DS5": [
+          -11.25
+        ],
+        "DS6": [
+          8.75
+        ],
+        "DS7": [
+          -9.5,
+          9.5
+        ],
+        "DS8": [
+          3.25
+        ]
+      },
+      "median_parallel_residual_energy_fraction": {
+        "DS1": 0.21172924058313736,
+        "DS2": 0.08923978162528469,
+        "DS3": 0.2846388365781626,
+        "DS4": 0.2131447523814515,
+        "DS5": 0.20956299904999914,
+        "DS6": 0.2087858221521223,
+        "DS7": 0.17958075102378496,
+        "DS8": 0.32902123521014004
+      }
+    }
+  },
+  "fused_ds1_permutation": {
+    "observed_rank": 1,
+    "observed_target_score": 0.16441742206961535,
+    "count_null_rank_le_observed": 10,
+    "p_value_eq20": 0.01098901098901099
+  },
+  "per_position_ds1_permutation": {
+    "P1": {
+      "observed_aggregate_rank": 4,
+      "observed_pass_ranks": [
+        4,
+        3
+      ],
+      "aggregate_rank_count_le_observed": 49,
+      "aggregate_rank_p_value_eq20": 0.04995004995004995,
+      "mrr_count_ge_observed": 34,
+      "mrr_p_value": 0.03496503496503497,
+      "uniform_expectation_rank_le_observed": 32.78688524590164
+    },
+    "P2": {
+      "observed_aggregate_rank": 1,
+      "observed_pass_ranks": [
+        1,
+        1
+      ],
+      "aggregate_rank_count_le_observed": 12,
+      "aggregate_rank_p_value_eq20": 0.012987012987012988,
+      "mrr_count_ge_observed": 12,
+      "mrr_p_value": 0.012987012987012988,
+      "uniform_expectation_rank_le_observed": 8.19672131147541
+    }
+  }
+}

@@ -146,6 +146,330 @@
     "state_fraction_one_sided_p": 0.002997002997002997
   },
   "bandwidth_sensitivity_at_primary_k": {
+    "0.75": {
+      "bandwidth_m": 0.75,
+      "k": 8,
+      "mean_absolute_error_m": 2.5331781068526626,
+      "target_fraction_within_one_panel": 0.8888888888888888,
+      "state_fraction_within_one_panel": 0.875,
+      "states": {
+        "DS1": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -5.5
+          ],
+          "matched_absolute_errors_m": [
+            2.0
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS2": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -5.25
+          ],
+          "matched_absolute_errors_m": [
+            1.75
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS3": {
+          "ground_truth_x_m": [
+            -8.619151060243272
+          ],
+          "predicted_x_m": [
+            -10.0
+          ],
+          "matched_absolute_errors_m": [
+            1.3808489397567278
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS4": {
+          "ground_truth_x_m": [
+            -5.580701453883728
+          ],
+          "predicted_x_m": [
+            -2.25
+          ],
+          "matched_absolute_errors_m": [
+            3.3307014538837283
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS5": {
+          "ground_truth_x_m": [
+            -7.435443109621872
+          ],
+          "predicted_x_m": [
+            -10.0
+          ],
+          "matched_absolute_errors_m": [
+            2.564556890378128
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS6": {
+          "ground_truth_x_m": [
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            0.0
+          ],
+          "matched_absolute_errors_m": [
+            1.5632217652924947
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS7": {
+          "ground_truth_x_m": [
+            -7.435443109621872,
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -6.25,
+            7.0
+          ],
+          "matched_absolute_errors_m": [
+            1.1854431096218718,
+            8.563221765292495
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS8": {
+          "ground_truth_x_m": [
+            2.2106090374485206
+          ],
+          "predicted_x_m": [
+            1.75
+          ],
+          "matched_absolute_errors_m": [
+            0.46060903744852055
+          ],
+          "all_targets_within_one_panel": true
+        }
+      }
+    },
+    "1.0": {
+      "bandwidth_m": 1.0,
+      "k": 8,
+      "mean_absolute_error_m": 2.6851132069907515,
+      "target_fraction_within_one_panel": 0.7777777777777778,
+      "state_fraction_within_one_panel": 0.75,
+      "states": {
+        "DS1": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -5.5
+          ],
+          "matched_absolute_errors_m": [
+            2.0
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS2": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -5.25
+          ],
+          "matched_absolute_errors_m": [
+            1.75
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS3": {
+          "ground_truth_x_m": [
+            -8.619151060243272
+          ],
+          "predicted_x_m": [
+            -5.0
+          ],
+          "matched_absolute_errors_m": [
+            3.619151060243272
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS4": {
+          "ground_truth_x_m": [
+            -5.580701453883728
+          ],
+          "predicted_x_m": [
+            -2.5
+          ],
+          "matched_absolute_errors_m": [
+            3.0807014538837283
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS5": {
+          "ground_truth_x_m": [
+            -7.435443109621872
+          ],
+          "predicted_x_m": [
+            -10.0
+          ],
+          "matched_absolute_errors_m": [
+            2.564556890378128
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS6": {
+          "ground_truth_x_m": [
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            0.0
+          ],
+          "matched_absolute_errors_m": [
+            1.5632217652924947
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS7": {
+          "ground_truth_x_m": [
+            -7.435443109621872,
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -8.25,
+            7.0
+          ],
+          "matched_absolute_errors_m": [
+            0.8145568903781282,
+            8.563221765292495
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS8": {
+          "ground_truth_x_m": [
+            2.2106090374485206
+          ],
+          "predicted_x_m": [
+            2.0
+          ],
+          "matched_absolute_errors_m": [
+            0.21060903744852055
+          ],
+          "all_targets_within_one_panel": true
+        }
+      }
+    },
+    "1.25": {
+      "bandwidth_m": 1.25,
+      "k": 8,
+      "mean_absolute_error_m": 2.8605334208910804,
+      "target_fraction_within_one_panel": 0.8888888888888888,
+      "state_fraction_within_one_panel": 0.875,
+      "states": {
+        "DS1": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -5.75
+          ],
+          "matched_absolute_errors_m": [
+            2.25
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS2": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -5.25
+          ],
+          "matched_absolute_errors_m": [
+            1.75
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS3": {
+          "ground_truth_x_m": [
+            -8.619151060243272
+          ],
+          "predicted_x_m": [
+            -5.5
+          ],
+          "matched_absolute_errors_m": [
+            3.119151060243272
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS4": {
+          "ground_truth_x_m": [
+            -5.580701453883728
+          ],
+          "predicted_x_m": [
+            -3.0
+          ],
+          "matched_absolute_errors_m": [
+            2.5807014538837283
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS5": {
+          "ground_truth_x_m": [
+            -7.435443109621872
+          ],
+          "predicted_x_m": [
+            -10.0
+          ],
+          "matched_absolute_errors_m": [
+            2.564556890378128
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS6": {
+          "ground_truth_x_m": [
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            0.0
+          ],
+          "matched_absolute_errors_m": [
+            1.5632217652924947
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS7": {
+          "ground_truth_x_m": [
+            -7.435443109621872,
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -10.5,
+            6.75
+          ],
+          "matched_absolute_errors_m": [
+            3.064556890378128,
+            8.313221765292495
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS8": {
+          "ground_truth_x_m": [
+            2.2106090374485206
+          ],
+          "predicted_x_m": [
+            2.75
+          ],
+          "matched_absolute_errors_m": [
+            0.5393909625514794
+          ],
+          "all_targets_within_one_panel": true
+        }
+      }
+    },
     "1.75": {
       "bandwidth_m": 1.75,
       "k": 8,
@@ -573,6 +897,330 @@
           ],
           "matched_absolute_errors_m": [
             6.5393909625514794
+          ],
+          "all_targets_within_one_panel": false
+        }
+      }
+    },
+    "7.0": {
+      "bandwidth_m": 7.0,
+      "k": 8,
+      "mean_absolute_error_m": 8.903339459660911,
+      "target_fraction_within_one_panel": 0.1111111111111111,
+      "state_fraction_within_one_panel": 0.125,
+      "states": {
+        "DS1": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            10.5
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS2": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            10.5
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS3": {
+          "ground_truth_x_m": [
+            -8.619151060243272
+          ],
+          "predicted_x_m": [
+            -10.25
+          ],
+          "matched_absolute_errors_m": [
+            1.6308489397567278
+          ],
+          "all_targets_within_one_panel": true
+        },
+        "DS4": {
+          "ground_truth_x_m": [
+            -5.580701453883728
+          ],
+          "predicted_x_m": [
+            -0.75
+          ],
+          "matched_absolute_errors_m": [
+            4.830701453883728
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS5": {
+          "ground_truth_x_m": [
+            -7.435443109621872
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            6.564556890378128
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS6": {
+          "ground_truth_x_m": [
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            12.436778234707505
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS7": {
+          "ground_truth_x_m": [
+            -7.435443109621872,
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -14.0,
+            14.0
+          ],
+          "matched_absolute_errors_m": [
+            6.564556890378128,
+            15.563221765292495
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS8": {
+          "ground_truth_x_m": [
+            2.2106090374485206
+          ],
+          "predicted_x_m": [
+            13.75
+          ],
+          "matched_absolute_errors_m": [
+            11.53939096255148
+          ],
+          "all_targets_within_one_panel": false
+        }
+      }
+    },
+    "8.75": {
+      "bandwidth_m": 8.75,
+      "k": 8,
+      "mean_absolute_error_m": 9.783474801316139,
+      "target_fraction_within_one_panel": 0.0,
+      "state_fraction_within_one_panel": 0.0,
+      "states": {
+        "DS1": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            10.5
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS2": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            10.5
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS3": {
+          "ground_truth_x_m": [
+            -8.619151060243272
+          ],
+          "predicted_x_m": [
+            -13.0
+          ],
+          "matched_absolute_errors_m": [
+            4.380848939756728
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS4": {
+          "ground_truth_x_m": [
+            -5.580701453883728
+          ],
+          "predicted_x_m": [
+            -0.25
+          ],
+          "matched_absolute_errors_m": [
+            5.330701453883728
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS5": {
+          "ground_truth_x_m": [
+            -7.435443109621872
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            6.564556890378128
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS6": {
+          "ground_truth_x_m": [
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            12.436778234707505
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS7": {
+          "ground_truth_x_m": [
+            -7.435443109621872,
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -14.0,
+            14.0
+          ],
+          "matched_absolute_errors_m": [
+            6.564556890378128,
+            15.563221765292495
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS8": {
+          "ground_truth_x_m": [
+            2.2106090374485206
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            16.21060903744852
+          ],
+          "all_targets_within_one_panel": false
+        }
+      }
+    },
+    "10.5": {
+      "bandwidth_m": 10.5,
+      "k": 8,
+      "mean_absolute_error_m": 9.977919245760582,
+      "target_fraction_within_one_panel": 0.0,
+      "state_fraction_within_one_panel": 0.0,
+      "states": {
+        "DS1": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            10.5
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS2": {
+          "ground_truth_x_m": [
+            -3.5
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            10.5
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS3": {
+          "ground_truth_x_m": [
+            -8.619151060243272
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            5.380848939756728
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS4": {
+          "ground_truth_x_m": [
+            -5.580701453883728
+          ],
+          "predicted_x_m": [
+            0.5
+          ],
+          "matched_absolute_errors_m": [
+            6.080701453883728
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS5": {
+          "ground_truth_x_m": [
+            -7.435443109621872
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            6.564556890378128
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS6": {
+          "ground_truth_x_m": [
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            12.436778234707505
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS7": {
+          "ground_truth_x_m": [
+            -7.435443109621872,
+            -1.5632217652924947
+          ],
+          "predicted_x_m": [
+            -14.0,
+            14.0
+          ],
+          "matched_absolute_errors_m": [
+            6.564556890378128,
+            15.563221765292495
+          ],
+          "all_targets_within_one_panel": false
+        },
+        "DS8": {
+          "ground_truth_x_m": [
+            2.2106090374485206
+          ],
+          "predicted_x_m": [
+            -14.0
+          ],
+          "matched_absolute_errors_m": [
+            16.21060903744852
           ],
           "all_targets_within_one_panel": false
         }

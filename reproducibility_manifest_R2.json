@@ -1,0 +1,455 @@
+{
+  "revision": "SDHM R2",
+  "manuscript_id": "SDHM-92616",
+  "date": "2026-10-30",
+  "basis": "Analysis code and derived features match the R1 submitted supplementary archive; R2 plotting and manuscript updates are included.",
+  "scope": "Only these selected files form the current reproduction release; older research files are historical.",
+  "file_count": 89,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "79137e281d2124e89ba20fd0473316f51270c4e0a4012727b3882c309990a00a",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "REPRODUCIBILITY_R2.md",
+      "sha256": "0ee16577d11974df23270a444a5822210ab70dd9acc746790fba25001a1378f9",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/README.md",
+      "sha256": "1808bd233f89b737959a2e3ba2e52d58ac2b87497de48a7faf9b1e57ad347383",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/cache/all_damage_sweep_modal_features.npz",
+      "sha256": "2792a3d85ee644929ecfeb49f1a37309518a01b731a5f3025b543370be2c19f4",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/cache/ds1_sweep_modal_features.npz",
+      "sha256": "e7b23f54ccbfdcf767c745edc3ae2f0bbaa2f8d90fa0b8e87ae550b100ed63bf",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/cache/healthy_p2_noise_frf_audit.npz",
+      "sha256": "b249bf102a642eb816c89c591cb56b8215ecec141416719f13964c818e7305aa",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/cache/p2_noise_frf_dataset.npz",
+      "sha256": "ed15a91a106a30a6feaa41aa87d81df39293dbe4880c405063bf3db044f95d07",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/cache/p2_noise_modal_features.npz",
+      "sha256": "54182fd3a1a05bde1ffe9761d947708c929b559c8ac68b8538fd17eca1a426c7",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/outputs/ds1_sweep_validation.json",
+      "sha256": "74e9ccd259da69c3dee3b19d5458c3659f624ba5e4a4a0f85196617541cc1f05",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/outputs/revision_r1/bandwidth_logscale_sweep.json",
+      "sha256": "3513a26f6b30cbc29da1136e25f150a8af3e66d37b924b068e91a909f79fd1f3",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/outputs/revision_r1/revision_r1_checks.json",
+      "sha256": "05fb43c09596d1f726336b27c276845221eef03b6f0c4a158a4ff3484e9826ab",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/outputs/topk_spatial_localization.json",
+      "sha256": "c7f46dc6b0b0b7e76149bf8ab28a8fcaa686f6fac07b855944b6dc43807b76ff",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/requirements.txt",
+      "sha256": "d9594fc891be3f89dacb98d0dee26e0b0b7cd92705d5fc2faa743b3372b2086c",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/__init__.py",
+      "sha256": "1374742d01b05eeac2822aa57be0abf65883ecb4fc31baa545372be1adf387e1",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/audit_hdf5.py",
+      "sha256": "309a55a1a376fb9d3a353f42d6a6a414885d2531983d2e60ce81a7328b0c1328",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/config.py",
+      "sha256": "078a38c7b46a65d097a1bf63fb439e3433c1a4666c2416e2ce87f79086b1f62d",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/extract_modal_features.py",
+      "sha256": "6b39fa2338afdeade5eb16b0a439e4d2b72cc200c8fbe7578348a72c0e26d0d1",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/frf.py",
+      "sha256": "35d5c0687b682e28b7a4782015412d4826d0cf87eca441ce599951b9d161ed31",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/graph_damage_gp.py",
+      "sha256": "0c175db736c93cb80966b95e4f72b28107a176fc946384b70b251b38a9626f0b",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/kernel_model.py",
+      "sha256": "a46ae1fe3dfd117cdb969c409b332adda5c6c5f22931ed5e521a81ef8d30c0ae",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/modal_model.py",
+      "sha256": "44a9e8a491f1edf5ada295fef1faf633126b33c14046fe4e72b53daeaef56dcb",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/plot_experimental_records_quality.py",
+      "sha256": "d3578fb0eff08022114173dfff2012f08f67d0e5961fdd41e91063d788406285",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/plot_spatial_region_sensor_graph.py",
+      "sha256": "4aad1bb261d5eebbb8ce60eb917bc6719c779aab5581f8d7269e19caa663ef47",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/prepare_frf_dataset.py",
+      "sha256": "cd80da5120d4f5aeefbba256b74a4d34bc6cdbbfe70a16f670ce9c8a66057548",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_all_damage_sweep_region.py",
+      "sha256": "212e80d7bc2b00d108545dc9949f9f6e4a9a44e1cc77ceb08502b8ce512f6462",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_bandwidth_logscale_sweep.py",
+      "sha256": "991da4c86df2273c1da95e24f65f124fb68c7a430282147f73c558e82e7a6cc2",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_baseline_experiment.py",
+      "sha256": "e0d9537101fafe40c5e57a6761e3bd892868910b9ce4f14999f4fd0d86e59a21",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_ds1_baseline_topology_audit.py",
+      "sha256": "b5599db998ed56735c8508697b1ae1b6a3dbe87da722822b28cbe98b3aaf0ac0",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_ds1_full_edge_spectrum.py",
+      "sha256": "e5fed47a3259cb41ff5635c8ff54c9c028e21403ca12002b0911ff373c801c9e",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_ds1_localization_audit.py",
+      "sha256": "c8481f4ccdafb367009db159bd0da9291d0172030e5c26eb719cc34eb93660ba",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_ds1_sweep_validation.py",
+      "sha256": "44c72581438adfd47812fbd27f180694062690a6807bae895bff3fcca11f2071",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_frequency_shift_region_experiment.py",
+      "sha256": "6013c1e9ca012a09d2e9c57c27f9346b578dd567f43ff1cd1cbf4799b91cd15b",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_frf_audit.py",
+      "sha256": "0274aa66f04fb55bc3fe46610a018f53c759cce56787e51c76b3a4536a316025",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_graph_damage_gp_conformal.py",
+      "sha256": "f714fc0a01e2ae9d32ba118f2f5ba8eead084b2678cf932e1276da6622f3f60c",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_graph_damage_gp_experiment.py",
+      "sha256": "043439148b039a4293094621d19003f9e4465c825d6b6b4015b911b60a13bed4",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_lateral_sweep_localization.py",
+      "sha256": "2bfcb307f4c42a66c1eaafb86d680699adfcde9846ec3487062d3a9c17400825",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_modal_audit.py",
+      "sha256": "fc01ceb6d023336b8fb4af1e6b18859c01b8dbef4a91071f8ba0a7416d015fb9",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_mode_shape_audit.py",
+      "sha256": "7e14346bdbe7fb902faa72a53fd9a219e92a49b4cb7892ca3111e94b5d205539",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_multiedge_region_experiment.py",
+      "sha256": "1792facf4e17380e67556b1f56ea8da4eb06ee2aaedd98eb8cedb5ee4c2bb104",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_multireference_spatial_localization.py",
+      "sha256": "44f183343f110c96b748fc47359cec937971db7d18cc7ac9291e3f725482c7a0",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_physics_consistency_multiedge.py",
+      "sha256": "43413445d49de7fae8c0105c5c176da578e2bfc5603cb785b59507deddfa500c",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_pole_audit.py",
+      "sha256": "94b1f987e27647852d638ad3fbeab7d4563d37d1e85d5c2b50d95b8628617416",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_revision_r1_checks.py",
+      "sha256": "7095fced46d4e48385e44ce36cf52cabdc94c382085e5b8359dbe94d35886b3c",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_spatial_region_localization.py",
+      "sha256": "42c9961ce253f48eee949b15b51d4e7ecff0309ef428991ce8879f5f49cd5de1",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/src/hbta_frf/run_topk_spatial_localization.py",
+      "sha256": "e810052922c7108dfbaadf0b7fbc615fd8c7932c7de82ff0bedf2e9d2714d297",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/tests/test_frf.py",
+      "sha256": "2145b0fbfe4a8571df1e539a5baa330f1a4f99577ee1f8119d5ecbf40545d5a3",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/tests/test_graph_damage_gp.py",
+      "sha256": "28f0312b46fa1f347270d9d92c54afae721d24774165d5cba30a428791ed4b44",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/tests/test_kernel_model.py",
+      "sha256": "651e732bd8b1820722cca2d8a08e870c14e7501c3003c7ef6ec6d7bdbb6eac08",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/tests/test_modal_model.py",
+      "sha256": "cb0987f67bcc88812eb80564b3ada89ac9d7be2fdfcff60fba8fc6adda4f3d0a",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "code_repository/hbta_physics_informed_frf/topology/hbta_physical_edge_list.csv",
+      "sha256": "4e733dade99f07bbbb1464b6ebcf084125f620f5d33673867d21ff671e483433",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/image-f001.pdf",
+      "sha256": "a86b8b8c21cf2d195c67a9af659c727f0d8a07696523f57fbbd92255a4181953",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/image-f002.pdf",
+      "sha256": "8f3ed959da7cab2a05ec9149b586cf184c8a090e44312dfd8ed457ce52970c8e",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/journalnames.tex",
+      "sha256": "ab83e11c1484de6bb1fc09c97fb3f6bfec3b4059b875cff6746dfe74211866bb",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/logo-orcid.pdf",
+      "sha256": "0558a0097dc4d1ffe3f4a1b3c9b4b98c6e568eac7d7439d447ca56ed1a8ec759",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/logo-tsp.pdf",
+      "sha256": "7cee539dec5bede6630de37981051d862c44f0508fa81db9a1dbf1ae959ecdeb",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/logo-updates.pdf",
+      "sha256": "e1403534c34b8f746544f3ea12db8bce59b7d3732b00ce94867892c038cd9d8b",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/package.tex",
+      "sha256": "770fdb3d255eea5e30ee4568aea71bdb1b837fb6094fb625dad2aa4291946b37",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/tsp.cls",
+      "sha256": "fa541014453c1ee452db5fcde175ee7bf69cb48d7e73ccf8dee651e7fe133f09",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/unicode.tex",
+      "sha256": "c8a3caa95aa971b080c4817e4dfcd1ff638426d91c99cd63610c68dbcb292b6b",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/Definitions/vancouver.bst",
+      "sha256": "3e335079b35c68d610985398b5efc10f1ab32c0d2fb7a7cab9b9506d66c46130",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/experimental_records_modal_quality_R1.png",
+      "sha256": "a5d5de741b1fec1944b5db16daccd82b9644ffa633f1a2822d0f2d4aa62b6cd8",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/fig_damage_scoring_diagram.png",
+      "sha256": "6fcede0fe0d65c70476089738974a7ed64ba939f441856d103dee073f377a71c",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/fig_ds1_confirmatory_R1.png",
+      "sha256": "a066570f3706e8148fb178b85ffe92fa15cfdf483006dd80e2855a99388b413a",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/fig_robustness_audits_bandwidth_R1.png",
+      "sha256": "221e2c20199df8f7890314d2a1f1d7087f86b664a4377152cf3147c6c795e6e5",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/fig_robustness_audits_poolsize.png",
+      "sha256": "12bd8da49bc811b6d7a6ce2b0e6b3570d669dd303e4f2f84fdbe8e321ecb5c56",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/fig_robustness_topology_permutation_R1.png",
+      "sha256": "9f7bc548e5a00df6ee5512b04fbd193c04931ae4c10805c0500ada5c6a8332ad",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/fig_single_edge_ds_benchmark_R1.png",
+      "sha256": "6c86c3fb35443dd07972432e57e3f27c1a3cec9259fef555b309ac7b366ddd98",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/fig_spatial_smoothing_ds_benchmark.png",
+      "sha256": "1f63cdf0611152068b26efc6e8a98973530076e2366e9857bf93172d6b4ebf26",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/figure1_modal_fusion_concept.png",
+      "sha256": "8402b61d1aca006935d9d2bb7518e110f2f96dd34d05f53913e19ad54e3fba04",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/figure2_spatial_smoothing_concept.png",
+      "sha256": "a5e1dcf5d3e61d5c1562382bcc3b8f3020780046482b795bef18838b40a06699",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/figure_edge_gradient_concept.png",
+      "sha256": "916b4dcd1854b981d1157a79118f2619b2f962f8078144b7f65540cd61b1ad4d",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/hbta_bridge_photo.jpg",
+      "sha256": "5746320bbccb5501c806ddbd9b033686865fdb3af5ed30b3039d7dd511cf1e45",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/hbta_ds1_sensor_graph_R1.png",
+      "sha256": "e9b783ab7fc032cf22b58c88e3e7a623261095b90bcaa54f51da8c90bb161ac6",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/figures/hbta_sensor_topology_R2.png",
+      "sha256": "cc388b32ae859eadf9b98a92c7b1af7489836ff89c72630d60de08cb9bdc03d1",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/graph_based_damage_localization_hbta_sdhm_R2.pdf",
+      "sha256": "c627e8965a768c0e37ad53038f2dc1cb06c7224f1ab5a797c722c6bde6524d5a",
+      "normalization": "exact-binary"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/graph_based_damage_localization_hbta_sdhm_R2.tex",
+      "sha256": "d7b302787b011e891a67310e18ee0f749c4653cd4f48eaec3dbfb5bbd2b3f197",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/reference_R1/graph_based_damage_localization_hbta_sdhm_R1.tex",
+      "sha256": "292bab7bbad7fe41cb7fc01abda1a6f4490f3023faaad1260561211fdeef2576",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_ds1_fused_R1.py",
+      "sha256": "0e76e8ff484fed93c303942ed9a2f762344dce1d3d897b0c845d84aa5f9db586",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_edge_gradient_R1.py",
+      "sha256": "3bbe0107dc479e286f5f370b64384a22e788e79a5a060cb1a1df38b701684dfc",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_layout_R1.py",
+      "sha256": "923c7c94ac2599e79be78a259706c51e8cbea3aaab5865884cf73b341232900b",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_layout_R2.py",
+      "sha256": "be365754b51c094070ae76ed6cdcbdb7863654cb40c11b22008029692cbb3693",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_modal_fusion_R1.py",
+      "sha256": "ca8545b023ec8c3c8778a48fc31ec7dec5545de37d8a798258894ca75e16b2c1",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_modal_quality_R1.py",
+      "sha256": "e11fd47c762a85f23862d161991a11a9e8eef1565cf027a22ec49e2c575cfe3c",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_poolsize_R1.py",
+      "sha256": "bdc5f9632a6c042d9701fad030926e88d57e68ed019a299a6d6417aae2617643",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_results_R1.py",
+      "sha256": "6c40058883f2ca5fef8dd5c71de493a93cadec49be092ddfd38c91b1c31dffc7",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/make_fig_smoothing_R1.py",
+      "sha256": "945d5cdb1f7da5da3b037d93578dedee3e19502fd0c7c741bc66ee647c15c0c7",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/r1_data.py",
+      "sha256": "9020a0093105e09940a59807b60476bae32d5f9747b48b378b08ac0d0f28604f",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/scripts/r1_discrete_benchmark.json",
+      "sha256": "22103af2a4470ba9a6e05c560ea0ed3c6269e36d43133ded1b2eae65b53a9640",
+      "normalization": "text-LF"
+    },
+    {
+      "path": "latex/sdhm_revision_R2/tools/build_submission_R2.py",
+      "sha256": "f3661028439ef2284f0e46349d26140e1f55d72e2e69d96fe9b653517e1fab71",
+      "normalization": "text-LF"
+    }
+  ]
+}

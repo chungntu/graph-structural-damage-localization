@@ -163,7 +163,7 @@ def main() -> None:
     )
     bandwidth_sensitivity = {
         str(bandwidth): summarize(scores_by_state, edge_x, truth, bandwidth, PRIMARY_K)
-        for bandwidth in (1.75, 2.625, 3.5, 5.25)
+        for bandwidth in (0.75, 1.0, 1.25, 1.75, 2.625, 3.5, 5.25, 7.0, 8.75, 10.5)
     }
     k_sensitivity = {
         str(k): summarize(scores_by_state, edge_x, truth, PRIMARY_BANDWIDTH_M, k)
