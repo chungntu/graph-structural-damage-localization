@@ -116,7 +116,7 @@ python -m pytest tests -q
 
 ## Manuscript compilation
 
-With a LaTeX distribution and the required packages available, run twice from `latex/sdhm_revision_R2`:
+PDF manuscripts and PDF journal-template assets are intentionally excluded from Git. To compile locally, obtain the complete journal template from the publisher and provide its PDF assets in `Definitions/`. With the required LaTeX packages and those local assets available, run twice from `latex/sdhm_revision_R2`:
 
 ```text
 pdflatex -interaction=nonstopmode -halt-on-error graph_based_damage_localization_hbta_sdhm_R2.tex

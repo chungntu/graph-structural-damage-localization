@@ -3,17 +3,17 @@
   "manuscript_id": "SDHM-92616",
   "date": "2026-10-30",
   "basis": "Analysis code and derived features match the R1 submitted supplementary archive; R2 plotting and manuscript updates are included.",
-  "scope": "Only these selected files form the current reproduction release; older research files are historical.",
-  "file_count": 89,
+  "scope": "Selected public R2 source, code, derived data and raster figures only. PDFs and un_use are excluded from the public Git history.",
+  "file_count": 84,
   "files": [
     {
       "path": "README.md",
-      "sha256": "79137e281d2124e89ba20fd0473316f51270c4e0a4012727b3882c309990a00a",
+      "sha256": "80fd3d792cf1fa42ab8fabbd0a24afe66b862ef13d26d358ac666f94af2bc86c",
       "normalization": "text-LF"
     },
     {
       "path": "REPRODUCIBILITY_R2.md",
-      "sha256": "0ee16577d11974df23270a444a5822210ab70dd9acc746790fba25001a1378f9",
+      "sha256": "9c421cf9d5d6b8d2fb10c4a35047abbb6c2d81fb529d5e5965377083f44c2e28",
       "normalization": "text-LF"
     },
     {
@@ -257,34 +257,9 @@
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/Definitions/image-f001.pdf",
-      "sha256": "a86b8b8c21cf2d195c67a9af659c727f0d8a07696523f57fbbd92255a4181953",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/Definitions/image-f002.pdf",
-      "sha256": "8f3ed959da7cab2a05ec9149b586cf184c8a090e44312dfd8ed457ce52970c8e",
-      "normalization": "exact-binary"
-    },
-    {
       "path": "latex/sdhm_revision_R2/Definitions/journalnames.tex",
       "sha256": "ab83e11c1484de6bb1fc09c97fb3f6bfec3b4059b875cff6746dfe74211866bb",
       "normalization": "text-LF"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/Definitions/logo-orcid.pdf",
-      "sha256": "0558a0097dc4d1ffe3f4a1b3c9b4b98c6e568eac7d7439d447ca56ed1a8ec759",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/Definitions/logo-tsp.pdf",
-      "sha256": "7cee539dec5bede6630de37981051d862c44f0508fa81db9a1dbf1ae959ecdeb",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/Definitions/logo-updates.pdf",
-      "sha256": "e1403534c34b8f746544f3ea12db8bce59b7d3732b00ce94867892c038cd9d8b",
-      "normalization": "exact-binary"
     },
     {
       "path": "latex/sdhm_revision_R2/Definitions/package.tex",
@@ -377,11 +352,6 @@
       "normalization": "exact-binary"
     },
     {
-      "path": "latex/sdhm_revision_R2/graph_based_damage_localization_hbta_sdhm_R2.pdf",
-      "sha256": "c627e8965a768c0e37ad53038f2dc1cb06c7224f1ab5a797c722c6bde6524d5a",
-      "normalization": "exact-binary"
-    },
-    {
       "path": "latex/sdhm_revision_R2/graph_based_damage_localization_hbta_sdhm_R2.tex",
       "sha256": "d7b302787b011e891a67310e18ee0f749c4653cd4f48eaec3dbfb5bbd2b3f197",
       "normalization": "text-LF"
@@ -450,6 +420,11 @@
       "path": "latex/sdhm_revision_R2/tools/build_submission_R2.py",
       "sha256": "f3661028439ef2284f0e46349d26140e1f55d72e2e69d96fe9b653517e1fab71",
       "normalization": "text-LF"
+    },
+    {
+      "path": ".gitignore",
+      "normalization": "text-LF",
+      "sha256": "9c81eb52fd6f510fa9abe268a5717654af6ce2bd49da3c5710174ac5b7abdf57"
     }
   ]
 }

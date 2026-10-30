@@ -9,7 +9,6 @@ The framework represents the Hell Bridge Test Arena (HBTA) sensor layout as a ph
 
 ## Current version
 
-- [R2 clean manuscript](latex/sdhm_revision_R2/graph_based_damage_localization_hbta_sdhm_R2.pdf)
 - [R2 LaTeX source](latex/sdhm_revision_R2/graph_based_damage_localization_hbta_sdhm_R2.tex)
 - [Reproduction instructions and figure-to-script mapping](REPRODUCIBILITY_R2.md)
 - [Analysis package](code_repository/hbta_physics_informed_frf/src/hbta_frf)
@@ -18,7 +17,7 @@ The framework represents the Hell Bridge Test Arena (HBTA) sensor layout as a ph
 
 The analysis files and cached features were checked against the supplementary code archive submitted with R1. R2 adds the physical bridge background in Figure 6 and explanatory manuscript changes; the reported numerical results are unchanged. Script names ending in `_R1` are retained where their calculations or figures are unchanged in R2. Use the R2 script directory for this revision.
 
-Older manuscript files under `latex/` and material under `un_use/` are historical research files, not the R2 reproduction entry point.
+Older source files under `latex/` are historical research files, not the R2 reproduction entry point. PDF files and unused research materials are not distributed in this repository.
 
 ## Quick start
 

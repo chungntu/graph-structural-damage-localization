@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
-# LaTeX build byproducts (regenerated on compile; .tex and .pdf are kept)
+# LaTeX build byproducts (sources are kept; PDFs remain local)
 *.aux
 *.log
 *.out
@@ -16,3 +16,23 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Reference papers
+ref_papers/
+
+# Keep unused research files and every PDF out of the public repository
+/un_use/
+*.[pP][dD][fF]
+/papers/
+
+# Local journal submission and review working files
+/latex/sdhm_revision_R1/
+/latex/sdhm_revision_R2/audit/
+/latex/sdhm_revision_R2/build_R2/
+/latex/sdhm_revision_R2/code_release_verified_R1/
+/latex/sdhm_revision_R2/submission_files/
+/latex/sdhm_revision_R2/response/
+/latex/sdhm_revision_R2/reference_R1/
+/latex/sdhm_revision_R2/Response_R2*.md
+/latex/sdhm_revision_R2/README_R2.md
+/latex/sdhm_revision_R2/compile_pass*.txt
