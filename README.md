@@ -1,6 +1,6 @@
 # Graph-Based Structural Damage Localization through Modal Relative Motion
 
-Code, derived modal features, and manuscript sources for the **SDHM R2 revision**.
+Code, derived modal features, and reproduction scripts for the **SDHM R2 revision**.
 
 **Authors:** Chung Truong Thanh and Thanh Bui Tien.  
 **Corresponding author:** Chung Truong Thanh, chungtt@ntu.edu.vn.
@@ -9,15 +9,14 @@ The framework represents the Hell Bridge Test Arena (HBTA) sensor layout as a ph
 
 ## Current version
 
-- [R2 LaTeX source](latex/sdhm_revision_R2/graph_based_damage_localization_hbta_sdhm_R2.tex)
 - [Reproduction instructions and figure-to-script mapping](REPRODUCIBILITY_R2.md)
 - [Analysis package](code_repository/hbta_physics_informed_frf/src/hbta_frf)
-- [R2 figure scripts](latex/sdhm_revision_R2/scripts)
+- [R2 figure scripts](reproduction/sdhm_R2/scripts)
 - [Release file checksums](reproducibility_manifest_R2.json)
 
 The analysis files and cached features were checked against the supplementary code archive submitted with R1. R2 adds the physical bridge background in Figure 6 and explanatory manuscript changes; the reported numerical results are unchanged. Script names ending in `_R1` are retained where their calculations or figures are unchanged in R2. Use the R2 script directory for this revision.
 
-Older source files under `latex/` are historical research files, not the R2 reproduction entry point. PDF files and unused research materials are not distributed in this repository.
+Manuscript sources, journal submission files, PDFs, and unused research materials are not distributed in this repository.
 
 ## Quick start
 
@@ -25,7 +24,7 @@ Python 3.10 or later is required. From the repository root:
 
 ```text
 python -m pip install -r code_repository/hbta_physics_informed_frf/requirements.txt
-python latex/sdhm_revision_R2/scripts/make_fig_layout_R2.py
+python reproduction/sdhm_R2/scripts/make_fig_layout_R2.py
 ```
 
 See [REPRODUCIBILITY_R2.md](REPRODUCIBILITY_R2.md) for the numerical pipelines, optional tests, other figures, and LaTeX compilation.

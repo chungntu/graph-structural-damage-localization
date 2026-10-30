@@ -13,7 +13,7 @@ code_repository/hbta_physics_informed_frf/
     cache/               derived modal features (produced from the raw data, step A)
     outputs/             result files used by the figure scripts
     tests/               unit tests
-latex/sdhm_revision_R2/
+reproduction/sdhm_R2/
     scripts/             plotting scripts for the revised figures
     figures/             output folder of the plotting scripts
 ```
@@ -77,7 +77,7 @@ python -m hbta_frf.run_revision_r1_checks --sweep-features cache/all_damage_swee
 
 ## Step C: figures
 
-Run from `latex/sdhm_revision_R2/scripts`:
+Run from `reproduction/sdhm_R2/scripts`:
 
 | Figure | Content | Script |
 |---|---|---|
@@ -114,15 +114,9 @@ python -m pip install pytest
 python -m pytest tests -q
 ```
 
-## Manuscript compilation
+## Manuscript files
 
-PDF manuscripts and PDF journal-template assets are intentionally excluded from Git. To compile locally, obtain the complete journal template from the publisher and provide its PDF assets in `Definitions/`. With the required LaTeX packages and those local assets available, run twice from `latex/sdhm_revision_R2`:
-
-```text
-pdflatex -interaction=nonstopmode -halt-on-error graph_based_damage_localization_hbta_sdhm_R2.tex
-```
-
-The optional `tools/build_submission_R2.py` creates the clean PDF, a Track PDF versus the included R1 baseline source, and a clean-source ZIP. It requires `pdflatex`, `latexdiff` (or standalone `latexdiff-so`) and Perl. Its outputs stay inside the R2 directory.
+The manuscript and journal submission files are maintained separately and are not distributed in this code repository. The reproduction scripts generate the numerical figures without requiring manuscript sources or publisher templates.
 
 ## Version and checksum notes
 

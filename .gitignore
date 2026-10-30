@@ -36,3 +36,7 @@ ref_papers/
 /latex/sdhm_revision_R2/Response_R2*.md
 /latex/sdhm_revision_R2/README_R2.md
 /latex/sdhm_revision_R2/compile_pass*.txt
+
+# All manuscript and journal submission files stay local
+/latex/
+/reproduction/sdhm_R2/figures/

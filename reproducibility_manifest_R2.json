@@ -3,17 +3,17 @@
   "manuscript_id": "SDHM-92616",
   "date": "2026-10-30",
   "basis": "Analysis code and derived features match the R1 submitted supplementary archive; R2 plotting and manuscript updates are included.",
-  "scope": "Selected public R2 source, code, derived data and raster figures only. PDFs and un_use are excluded from the public Git history.",
-  "file_count": 84,
+  "scope": "Public code, derived data and reproduction scripts only. The latex and un_use directories and every PDF are excluded from public Git history.",
+  "file_count": 62,
   "files": [
     {
       "path": "README.md",
-      "sha256": "80fd3d792cf1fa42ab8fabbd0a24afe66b862ef13d26d358ac666f94af2bc86c",
+      "sha256": "09864bed86e4a42f543858e5d1fbb0e9dfb3e7c84d8535ee2e414ab68e88f879",
       "normalization": "text-LF"
     },
     {
       "path": "REPRODUCIBILITY_R2.md",
-      "sha256": "9c421cf9d5d6b8d2fb10c4a35047abbb6c2d81fb529d5e5965377083f44c2e28",
+      "sha256": "f7d97aa40a867a7d22290edac56612d4d95b1224b13e6dc9db4cab22a2759523",
       "normalization": "text-LF"
     },
     {
@@ -257,174 +257,64 @@
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/Definitions/journalnames.tex",
-      "sha256": "ab83e11c1484de6bb1fc09c97fb3f6bfec3b4059b875cff6746dfe74211866bb",
-      "normalization": "text-LF"
+      "path": ".gitignore",
+      "normalization": "text-LF",
+      "sha256": "0ce0a4f78537203ac44af8d6774ddfa20c888f5b641660dcee719ed96bf65c22"
     },
     {
-      "path": "latex/sdhm_revision_R2/Definitions/package.tex",
-      "sha256": "770fdb3d255eea5e30ee4568aea71bdb1b837fb6094fb625dad2aa4291946b37",
-      "normalization": "text-LF"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/Definitions/tsp.cls",
-      "sha256": "fa541014453c1ee452db5fcde175ee7bf69cb48d7e73ccf8dee651e7fe133f09",
-      "normalization": "text-LF"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/Definitions/unicode.tex",
-      "sha256": "c8a3caa95aa971b080c4817e4dfcd1ff638426d91c99cd63610c68dbcb292b6b",
-      "normalization": "text-LF"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/Definitions/vancouver.bst",
-      "sha256": "3e335079b35c68d610985398b5efc10f1ab32c0d2fb7a7cab9b9506d66c46130",
-      "normalization": "text-LF"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/experimental_records_modal_quality_R1.png",
-      "sha256": "a5d5de741b1fec1944b5db16daccd82b9644ffa633f1a2822d0f2d4aa62b6cd8",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/fig_damage_scoring_diagram.png",
-      "sha256": "6fcede0fe0d65c70476089738974a7ed64ba939f441856d103dee073f377a71c",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/fig_ds1_confirmatory_R1.png",
-      "sha256": "a066570f3706e8148fb178b85ffe92fa15cfdf483006dd80e2855a99388b413a",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/fig_robustness_audits_bandwidth_R1.png",
-      "sha256": "221e2c20199df8f7890314d2a1f1d7087f86b664a4377152cf3147c6c795e6e5",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/fig_robustness_audits_poolsize.png",
-      "sha256": "12bd8da49bc811b6d7a6ce2b0e6b3570d669dd303e4f2f84fdbe8e321ecb5c56",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/fig_robustness_topology_permutation_R1.png",
-      "sha256": "9f7bc548e5a00df6ee5512b04fbd193c04931ae4c10805c0500ada5c6a8332ad",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/fig_single_edge_ds_benchmark_R1.png",
-      "sha256": "6c86c3fb35443dd07972432e57e3f27c1a3cec9259fef555b309ac7b366ddd98",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/fig_spatial_smoothing_ds_benchmark.png",
-      "sha256": "1f63cdf0611152068b26efc6e8a98973530076e2366e9857bf93172d6b4ebf26",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/figure1_modal_fusion_concept.png",
-      "sha256": "8402b61d1aca006935d9d2bb7518e110f2f96dd34d05f53913e19ad54e3fba04",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/figure2_spatial_smoothing_concept.png",
-      "sha256": "a5e1dcf5d3e61d5c1562382bcc3b8f3020780046482b795bef18838b40a06699",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/figure_edge_gradient_concept.png",
-      "sha256": "916b4dcd1854b981d1157a79118f2619b2f962f8078144b7f65540cd61b1ad4d",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/hbta_bridge_photo.jpg",
-      "sha256": "5746320bbccb5501c806ddbd9b033686865fdb3af5ed30b3039d7dd511cf1e45",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/hbta_ds1_sensor_graph_R1.png",
-      "sha256": "e9b783ab7fc032cf22b58c88e3e7a623261095b90bcaa54f51da8c90bb161ac6",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/figures/hbta_sensor_topology_R2.png",
-      "sha256": "cc388b32ae859eadf9b98a92c7b1af7489836ff89c72630d60de08cb9bdc03d1",
-      "normalization": "exact-binary"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/graph_based_damage_localization_hbta_sdhm_R2.tex",
-      "sha256": "d7b302787b011e891a67310e18ee0f749c4653cd4f48eaec3dbfb5bbd2b3f197",
-      "normalization": "text-LF"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/reference_R1/graph_based_damage_localization_hbta_sdhm_R1.tex",
-      "sha256": "292bab7bbad7fe41cb7fc01abda1a6f4490f3023faaad1260561211fdeef2576",
-      "normalization": "text-LF"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_ds1_fused_R1.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_ds1_fused_R1.py",
       "sha256": "0e76e8ff484fed93c303942ed9a2f762344dce1d3d897b0c845d84aa5f9db586",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_edge_gradient_R1.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_edge_gradient_R1.py",
       "sha256": "3bbe0107dc479e286f5f370b64384a22e788e79a5a060cb1a1df38b701684dfc",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_layout_R1.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_layout_R1.py",
       "sha256": "923c7c94ac2599e79be78a259706c51e8cbea3aaab5865884cf73b341232900b",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_layout_R2.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_layout_R2.py",
       "sha256": "be365754b51c094070ae76ed6cdcbdb7863654cb40c11b22008029692cbb3693",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_modal_fusion_R1.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_modal_fusion_R1.py",
       "sha256": "ca8545b023ec8c3c8778a48fc31ec7dec5545de37d8a798258894ca75e16b2c1",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_modal_quality_R1.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_modal_quality_R1.py",
       "sha256": "e11fd47c762a85f23862d161991a11a9e8eef1565cf027a22ec49e2c575cfe3c",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_poolsize_R1.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_poolsize_R1.py",
       "sha256": "bdc5f9632a6c042d9701fad030926e88d57e68ed019a299a6d6417aae2617643",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_results_R1.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_results_R1.py",
       "sha256": "6c40058883f2ca5fef8dd5c71de493a93cadec49be092ddfd38c91b1c31dffc7",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/make_fig_smoothing_R1.py",
+      "path": "reproduction/sdhm_R2/scripts/make_fig_smoothing_R1.py",
       "sha256": "945d5cdb1f7da5da3b037d93578dedee3e19502fd0c7c741bc66ee647c15c0c7",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/r1_data.py",
-      "sha256": "9020a0093105e09940a59807b60476bae32d5f9747b48b378b08ac0d0f28604f",
+      "path": "reproduction/sdhm_R2/scripts/r1_data.py",
+      "sha256": "102c32f3fd991c99867bf2fc0c021a3069e4fd34a2d1c8cf8ffc88c144428e37",
       "normalization": "text-LF"
     },
     {
-      "path": "latex/sdhm_revision_R2/scripts/r1_discrete_benchmark.json",
+      "path": "reproduction/sdhm_R2/scripts/r1_discrete_benchmark.json",
       "sha256": "22103af2a4470ba9a6e05c560ea0ed3c6269e36d43133ded1b2eae65b53a9640",
       "normalization": "text-LF"
-    },
-    {
-      "path": "latex/sdhm_revision_R2/tools/build_submission_R2.py",
-      "sha256": "f3661028439ef2284f0e46349d26140e1f55d72e2e69d96fe9b653517e1fab71",
-      "normalization": "text-LF"
-    },
-    {
-      "path": ".gitignore",
-      "normalization": "text-LF",
-      "sha256": "9c81eb52fd6f510fa9abe268a5717654af6ce2bd49da3c5710174ac5b7abdf57"
     }
   ]
 }
